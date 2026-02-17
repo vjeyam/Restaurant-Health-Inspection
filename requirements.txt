@@ -1,0 +1,19 @@
+# Environment management
+python-dotenv==1.2.1
+
+# Chicago Open Data (Socrata)
+sodapy==2.2.0
+requests==2.32.3
+
+# Azure Blob Storage
+azure-storage-blob==12.28.0
+azure-core==1.38.1
+
+# Data processing
+pandas==2.3.3
+pyarrow==21.0.0
+numpy==2.0.2
+
+# Modeling (for upcoming steps)
+scikit-learn==1.6.1
+tqdm==4.67.3
