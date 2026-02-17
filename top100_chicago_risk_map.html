@@ -1,0 +1,3533 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb027fc4e3613a1549ac582ff13cced4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bb027fc4e3613a1549ac582ff13cced4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb027fc4e3613a1549ac582ff13cced4 = L.map(
+                "map_bb027fc4e3613a1549ac582ff13cced4",
+                {
+                    center: [41.86987064146658, -87.67444631782156],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_22fca3efec5428941b929a4778488f55 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_22fca3efec5428941b929a4778488f55.addTo(map_bb027fc4e3613a1549ac582ff13cced4);
+        
+    
+            var marker_cluster_4d4dc15652038112110af6ef45f82a18 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var marker_bc8352f93c70bf345d0c3f0752aa42a2 = L.marker(
+                [41.86621301898216, -87.7127816493052],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_daf34b588b427a9f568f8843a8424eb3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6a8cbdde8b74b0be92df9e53405c8d48 = $(`<div id="html_6a8cbdde8b74b0be92df9e53405c8d48" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 1<br>     <b>Risk score:</b> 0.754<br>     <b>Name:</b> POPEYE'S#835<br>     <b>Address:</b> 3457 W ROOSEVELT RD<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_daf34b588b427a9f568f8843a8424eb3.setContent(html_6a8cbdde8b74b0be92df9e53405c8d48);
+            
+        
+
+        marker_bc8352f93c70bf345d0c3f0752aa42a2.bindPopup(popup_daf34b588b427a9f568f8843a8424eb3)
+        ;
+
+        
+    
+    
+            marker_bc8352f93c70bf345d0c3f0752aa42a2.bindTooltip(
+                `<div>
+                     #1 • POPEYE'S#835 • score=0.754
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0af9e7ca4ef510c275102f6731f7e80f = L.marker(
+                [41.702518087781016, -87.55974504990618],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_aee63a2c516a57c412855fee2039929d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8b0b75a948ccf894b8399d38fd6a9a3a = $(`<div id="html_8b0b75a948ccf894b8399d38fd6a9a3a" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 2<br>     <b>Risk score:</b> 0.752<br>     <b>Name:</b> GUSIS RESTAURANT<br>     <b>Address:</b> 10606 S Torrence AVE<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_aee63a2c516a57c412855fee2039929d.setContent(html_8b0b75a948ccf894b8399d38fd6a9a3a);
+            
+        
+
+        marker_0af9e7ca4ef510c275102f6731f7e80f.bindPopup(popup_aee63a2c516a57c412855fee2039929d)
+        ;
+
+        
+    
+    
+            marker_0af9e7ca4ef510c275102f6731f7e80f.bindTooltip(
+                `<div>
+                     #2 • GUSIS RESTAURANT • score=0.752
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2a340e531a6151cdeffca09bbe2c2b14 = L.marker(
+                [41.6981699973446, -87.62102419675304],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_3248603dedc6db2000464c925902d730 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1dbe6a2c3894e79ce5abacf7b34423ea = $(`<div id="html_1dbe6a2c3894e79ce5abacf7b34423ea" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 3<br>     <b>Risk score:</b> 0.743<br>     <b>Name:</b> A.P. DELI RESTAURANT GROUP, INC.<br>     <b>Address:</b> 10758 S MICHIGAN AVE<br>     <b>ZIP:</b> 60628<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_3248603dedc6db2000464c925902d730.setContent(html_1dbe6a2c3894e79ce5abacf7b34423ea);
+            
+        
+
+        marker_2a340e531a6151cdeffca09bbe2c2b14.bindPopup(popup_3248603dedc6db2000464c925902d730)
+        ;
+
+        
+    
+    
+            marker_2a340e531a6151cdeffca09bbe2c2b14.bindTooltip(
+                `<div>
+                     #3 • A.P. DELI RESTAURANT GROUP, INC. • score=0.743
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ece05b4229461ba9ca8b565b9fb25b56 = L.marker(
+                [41.74420795314376, -87.57694560331278],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_ad9c6e7fb3aec147567f4892f372bec8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6d9898254c3294292d5374a1106e6ece = $(`<div id="html_6d9898254c3294292d5374a1106e6ece" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 4<br>     <b>Risk score:</b> 0.742<br>     <b>Name:</b> CARL'S RED HOT CHICAGO<br>     <b>Address:</b> 1957 E 83RD ST<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_ad9c6e7fb3aec147567f4892f372bec8.setContent(html_6d9898254c3294292d5374a1106e6ece);
+            
+        
+
+        marker_ece05b4229461ba9ca8b565b9fb25b56.bindPopup(popup_ad9c6e7fb3aec147567f4892f372bec8)
+        ;
+
+        
+    
+    
+            marker_ece05b4229461ba9ca8b565b9fb25b56.bindTooltip(
+                `<div>
+                     #4 • CARL'S RED HOT CHICAGO • score=0.742
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_998ac238ca66bae046794e1a7fc215be = L.marker(
+                [41.90225163790281, -87.76587291212932],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_1fe83ed5b26a97f3f8c693130703aa7a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_853ac3ae2fbc93850a8a6845f3e1526e = $(`<div id="html_853ac3ae2fbc93850a8a6845f3e1526e" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 5<br>     <b>Risk score:</b> 0.731<br>     <b>Name:</b> JAY'S BACKYARD BBQ<br>     <b>Address:</b> 5604 W DIVISION ST<br>     <b>ZIP:</b> 60651<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_1fe83ed5b26a97f3f8c693130703aa7a.setContent(html_853ac3ae2fbc93850a8a6845f3e1526e);
+            
+        
+
+        marker_998ac238ca66bae046794e1a7fc215be.bindPopup(popup_1fe83ed5b26a97f3f8c693130703aa7a)
+        ;
+
+        
+    
+    
+            marker_998ac238ca66bae046794e1a7fc215be.bindTooltip(
+                `<div>
+                     #5 • JAY'S BACKYARD BBQ • score=0.731
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b58abd9797851fa12139599656b9c748 = L.marker(
+                [41.92413043083973, -87.74623743353418],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_4bd42c9a6af28aa3a71f9fa87dcd97f9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e46ac257753fa17b98ec53c018125efe = $(`<div id="html_e46ac257753fa17b98ec53c018125efe" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 6<br>     <b>Risk score:</b> 0.731<br>     <b>Name:</b> SUBWAY<br>     <b>Address:</b> 4759 W FULLERTON AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_4bd42c9a6af28aa3a71f9fa87dcd97f9.setContent(html_e46ac257753fa17b98ec53c018125efe);
+            
+        
+
+        marker_b58abd9797851fa12139599656b9c748.bindPopup(popup_4bd42c9a6af28aa3a71f9fa87dcd97f9)
+        ;
+
+        
+    
+    
+            marker_b58abd9797851fa12139599656b9c748.bindTooltip(
+                `<div>
+                     #6 • SUBWAY • score=0.731
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5ce0f667e2bad734aa76785b13408d73 = L.marker(
+                [41.88040118054544, -87.74408951751022],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_8d8c3b8b33a01d3fbce217fea3cc0da5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c680c9efb73c8f5fba3d3273a4a5a9ed = $(`<div id="html_c680c9efb73c8f5fba3d3273a4a5a9ed" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 7<br>     <b>Risk score:</b> 0.728<br>     <b>Name:</b> UNCLE REMUS<br>     <b>Address:</b> 4731 W MADISON ST<br>     <b>ZIP:</b> 60644<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_8d8c3b8b33a01d3fbce217fea3cc0da5.setContent(html_c680c9efb73c8f5fba3d3273a4a5a9ed);
+            
+        
+
+        marker_5ce0f667e2bad734aa76785b13408d73.bindPopup(popup_8d8c3b8b33a01d3fbce217fea3cc0da5)
+        ;
+
+        
+    
+    
+            marker_5ce0f667e2bad734aa76785b13408d73.bindTooltip(
+                `<div>
+                     #7 • UNCLE REMUS • score=0.728
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c570771ad9361d6a56cac564b4015e08 = L.marker(
+                [41.95240164062764, -87.66401827319031],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_4acdb9f906ebbf83404d8307fb0cdf2b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f61a638cddafe9b163982bffc8c5eff3 = $(`<div id="html_f61a638cddafe9b163982bffc8c5eff3" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 8<br>     <b>Risk score:</b> 0.728<br>     <b>Name:</b> TOON'S BAR & GRILL<br>     <b>Address:</b> 3857 N SOUTHPORT AVE<br>     <b>ZIP:</b> 60613<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_4acdb9f906ebbf83404d8307fb0cdf2b.setContent(html_f61a638cddafe9b163982bffc8c5eff3);
+            
+        
+
+        marker_c570771ad9361d6a56cac564b4015e08.bindPopup(popup_4acdb9f906ebbf83404d8307fb0cdf2b)
+        ;
+
+        
+    
+    
+            marker_c570771ad9361d6a56cac564b4015e08.bindTooltip(
+                `<div>
+                     #8 • TOON'S BAR & GRILL • score=0.728
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_54eeec75a636a83e245dc4ee51a57fcb = L.marker(
+                [41.71885614073805, -87.55117357587062],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_13b569625c1926eb49f40be44e6c0d67 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_22c0630b92674bc2485ab0e9549e692a = $(`<div id="html_22c0630b92674bc2485ab0e9549e692a" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 9<br>     <b>Risk score:</b> 0.726<br>     <b>Name:</b> EL MALECON<br>     <b>Address:</b> 9706 S COMMERCIAL AVE<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_13b569625c1926eb49f40be44e6c0d67.setContent(html_22c0630b92674bc2485ab0e9549e692a);
+            
+        
+
+        marker_54eeec75a636a83e245dc4ee51a57fcb.bindPopup(popup_13b569625c1926eb49f40be44e6c0d67)
+        ;
+
+        
+    
+    
+            marker_54eeec75a636a83e245dc4ee51a57fcb.bindTooltip(
+                `<div>
+                     #9 • EL MALECON • score=0.726
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bdf36705ed1a7853618e47767e564010 = L.marker(
+                [41.71210884682817, -87.53513165923621],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_c9bfbc48575f7381d80a2713e0eb8e89 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_413fea4a583056d48baffdcd24130ddc = $(`<div id="html_413fea4a583056d48baffdcd24130ddc" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 10<br>     <b>Risk score:</b> 0.726<br>     <b>Name:</b> VIANYS PIZZERIA<br>     <b>Address:</b> 10063 S EWING AVE<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_c9bfbc48575f7381d80a2713e0eb8e89.setContent(html_413fea4a583056d48baffdcd24130ddc);
+            
+        
+
+        marker_bdf36705ed1a7853618e47767e564010.bindPopup(popup_c9bfbc48575f7381d80a2713e0eb8e89)
+        ;
+
+        
+    
+    
+            marker_bdf36705ed1a7853618e47767e564010.bindTooltip(
+                `<div>
+                     #10 • VIANYS PIZZERIA • score=0.726
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6544d9f242e733b2e51d5bb8f12adfdf = L.marker(
+                [41.85227106094055, -87.63272835813885],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_94141f1e064f74796a62aecacdab3ad5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_acc1f7ce208b69fe4c048bea168c5c7b = $(`<div id="html_acc1f7ce208b69fe4c048bea168c5c7b" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 11<br>     <b>Risk score:</b> 0.723<br>     <b>Name:</b> KAM FUNG RESTAURANT<br>     <b>Address:</b> 216 W 22ND PL<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_94141f1e064f74796a62aecacdab3ad5.setContent(html_acc1f7ce208b69fe4c048bea168c5c7b);
+            
+        
+
+        marker_6544d9f242e733b2e51d5bb8f12adfdf.bindPopup(popup_94141f1e064f74796a62aecacdab3ad5)
+        ;
+
+        
+    
+    
+            marker_6544d9f242e733b2e51d5bb8f12adfdf.bindTooltip(
+                `<div>
+                     #11 • KAM FUNG RESTAURANT • score=0.723
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_c1c0485dc4fdb83378bd30bf56f72893 = L.marker(
+                [41.734301345388744, -87.58500050585063],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_64404448c8522a848aa9595561842d6d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_63b733088ea422b38fbba0c67525df6a = $(`<div id="html_63b733088ea422b38fbba0c67525df6a" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 12<br>     <b>Risk score:</b> 0.721<br>     <b>Name:</b> CARRIBEAN JERK JOINT<br>     <b>Address:</b> 8827 S STONY ISLAND AVE<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_64404448c8522a848aa9595561842d6d.setContent(html_63b733088ea422b38fbba0c67525df6a);
+            
+        
+
+        marker_c1c0485dc4fdb83378bd30bf56f72893.bindPopup(popup_64404448c8522a848aa9595561842d6d)
+        ;
+
+        
+    
+    
+            marker_c1c0485dc4fdb83378bd30bf56f72893.bindTooltip(
+                `<div>
+                     #12 • CARRIBEAN JERK JOINT • score=0.721
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ce2de56be8ecf21197c93f208f411d69 = L.marker(
+                [41.947965602336375, -87.65729854258726],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_89702ffdeac8ab8f67a581a8ed54b694 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5d512e6c5a8359863b61cb51699d9c8c = $(`<div id="html_5d512e6c5a8359863b61cb51699d9c8c" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 13<br>     <b>Risk score:</b> 0.720<br>     <b>Name:</b> HOTEL ZACHARY<br>     <b>Address:</b> 3630 N CLARK ST<br>     <b>ZIP:</b> 60613<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_89702ffdeac8ab8f67a581a8ed54b694.setContent(html_5d512e6c5a8359863b61cb51699d9c8c);
+            
+        
+
+        marker_ce2de56be8ecf21197c93f208f411d69.bindPopup(popup_89702ffdeac8ab8f67a581a8ed54b694)
+        ;
+
+        
+    
+    
+            marker_ce2de56be8ecf21197c93f208f411d69.bindTooltip(
+                `<div>
+                     #13 • HOTEL ZACHARY • score=0.720
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8aa227d4e12929815dcf9af56cd1bf9f = L.marker(
+                [41.96807735259296, -87.70860691495594],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_45c797548b8c93919344996bc6c79bdb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6ef84bc9219093ba5ac756855d47f847 = $(`<div id="html_6ef84bc9219093ba5ac756855d47f847" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 14<br>     <b>Risk score:</b> 0.720<br>     <b>Name:</b> KABOBI<br>     <b>Address:</b> 4748 N KEDZIE AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_45c797548b8c93919344996bc6c79bdb.setContent(html_6ef84bc9219093ba5ac756855d47f847);
+            
+        
+
+        marker_8aa227d4e12929815dcf9af56cd1bf9f.bindPopup(popup_45c797548b8c93919344996bc6c79bdb)
+        ;
+
+        
+    
+    
+            marker_8aa227d4e12929815dcf9af56cd1bf9f.bindTooltip(
+                `<div>
+                     #14 • KABOBI • score=0.720
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2c197771080f33ca2e4f71c65e84c5e8 = L.marker(
+                [41.91724548227196, -87.72894168564135],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_4693d06f1cce0600c59db2826d5bc2a9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1d0fbbf75e0300dd967a8feaf17006da = $(`<div id="html_1d0fbbf75e0300dd967a8feaf17006da" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 15<br>     <b>Risk score:</b> 0.719<br>     <b>Name:</b> LA MICHOACANA FRUTILETA #2<br>     <b>Address:</b> 4058 W ARMITAGE AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_4693d06f1cce0600c59db2826d5bc2a9.setContent(html_1d0fbbf75e0300dd967a8feaf17006da);
+            
+        
+
+        marker_2c197771080f33ca2e4f71c65e84c5e8.bindPopup(popup_4693d06f1cce0600c59db2826d5bc2a9)
+        ;
+
+        
+    
+    
+            marker_2c197771080f33ca2e4f71c65e84c5e8.bindTooltip(
+                `<div>
+                     #15 • LA MICHOACANA FRUTILETA #2 • score=0.719
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_76df99cc953180d2795d1c7b3a02f2aa = L.marker(
+                [41.86775864360287, -87.62425670355442],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_4c044e90edc912cdb5c8bf5d759dc000 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b0f4fe8f67822b4784796c6d96cb1f1b = $(`<div id="html_b0f4fe8f67822b4784796c6d96cb1f1b" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 16<br>     <b>Risk score:</b> 0.719<br>     <b>Name:</b> BURGER BAR CHICAGO<br>     <b>Address:</b> 1150 S MICHIGAN AVE<br>     <b>ZIP:</b> 60605<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_4c044e90edc912cdb5c8bf5d759dc000.setContent(html_b0f4fe8f67822b4784796c6d96cb1f1b);
+            
+        
+
+        marker_76df99cc953180d2795d1c7b3a02f2aa.bindPopup(popup_4c044e90edc912cdb5c8bf5d759dc000)
+        ;
+
+        
+    
+    
+            marker_76df99cc953180d2795d1c7b3a02f2aa.bindTooltip(
+                `<div>
+                     #16 • BURGER BAR CHICAGO • score=0.719
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3630c332c8fe3b7053c582f26bff406b = L.marker(
+                [41.98547580098118, -87.66904057462465],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_48825202134cbc61393ae37c22eeb535 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cb998c785c5ffbf273a7ba8d28b6a3bf = $(`<div id="html_cb998c785c5ffbf273a7ba8d28b6a3bf" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 17<br>     <b>Risk score:</b> 0.719<br>     <b>Name:</b> ORA<br>     <b>Address:</b> 5701 N Clark ST<br>     <b>ZIP:</b> 60660<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_48825202134cbc61393ae37c22eeb535.setContent(html_cb998c785c5ffbf273a7ba8d28b6a3bf);
+            
+        
+
+        marker_3630c332c8fe3b7053c582f26bff406b.bindPopup(popup_48825202134cbc61393ae37c22eeb535)
+        ;
+
+        
+    
+    
+            marker_3630c332c8fe3b7053c582f26bff406b.bindTooltip(
+                `<div>
+                     #17 • ORA • score=0.719
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2c46e64a4f989e002dc8748dba5b9b9f = L.marker(
+                [41.7224009251715, -87.57203006887687],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_7106ce6f5e2b91dc9b3e50cf96fa3b12 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dd4a9a718581ac17e9fd54e956784a91 = $(`<div id="html_dd4a9a718581ac17e9fd54e956784a91" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 18<br>     <b>Risk score:</b> 0.716<br>     <b>Name:</b> DUNKIN<br>     <b>Address:</b> 2121-2123 E 95TH ST<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_7106ce6f5e2b91dc9b3e50cf96fa3b12.setContent(html_dd4a9a718581ac17e9fd54e956784a91);
+            
+        
+
+        marker_2c46e64a4f989e002dc8748dba5b9b9f.bindPopup(popup_7106ce6f5e2b91dc9b3e50cf96fa3b12)
+        ;
+
+        
+    
+    
+            marker_2c46e64a4f989e002dc8748dba5b9b9f.bindTooltip(
+                `<div>
+                     #18 • DUNKIN • score=0.716
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_680a0e83d665e6794521983df47fe421 = L.marker(
+                [41.880769739053655, -87.73115609692752],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_eb596203b9893266c12f97ee37be7946 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_945f3a5ad9d82c6c463a9690b1349a31 = $(`<div id="html_945f3a5ad9d82c6c463a9690b1349a31" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 19<br>     <b>Risk score:</b> 0.716<br>     <b>Name:</b> LUIGI'S PIZZA BY THE SLICE, INC<br>     <b>Address:</b> 4212 W MADISON ST<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_eb596203b9893266c12f97ee37be7946.setContent(html_945f3a5ad9d82c6c463a9690b1349a31);
+            
+        
+
+        marker_680a0e83d665e6794521983df47fe421.bindPopup(popup_eb596203b9893266c12f97ee37be7946)
+        ;
+
+        
+    
+    
+            marker_680a0e83d665e6794521983df47fe421.bindTooltip(
+                `<div>
+                     #19 • LUIGI'S PIZZA BY THE SLICE, INC • score=0.716
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_487a729f79874d885acba50a0486f398 = L.marker(
+                [41.96825393294936, -87.68817246934601],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_4ca05533ec3a786ec9acd21b70e3937c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_75f1f35a08d9aafc8223257af7256f1d = $(`<div id="html_75f1f35a08d9aafc8223257af7256f1d" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 20<br>     <b>Risk score:</b> 0.716<br>     <b>Name:</b> BARBA YIANNI TAVERNA INC.<br>     <b>Address:</b> 4761 N LINCOLN AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_4ca05533ec3a786ec9acd21b70e3937c.setContent(html_75f1f35a08d9aafc8223257af7256f1d);
+            
+        
+
+        marker_487a729f79874d885acba50a0486f398.bindPopup(popup_4ca05533ec3a786ec9acd21b70e3937c)
+        ;
+
+        
+    
+    
+            marker_487a729f79874d885acba50a0486f398.bindTooltip(
+                `<div>
+                     #20 • BARBA YIANNI TAVERNA INC. • score=0.716
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_09079d19a358cd8a7e58814c67828992 = L.marker(
+                [41.95240164062764, -87.66401827319031],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_3493f4b24ae807355c604f5d2c544922 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2ed61f9c589eaf2776c72efaa3088a9a = $(`<div id="html_2ed61f9c589eaf2776c72efaa3088a9a" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 21<br>     <b>Risk score:</b> 0.715<br>     <b>Name:</b> TOON'S BAR & GRILL<br>     <b>Address:</b> 3857 N SOUTHPORT AVE<br>     <b>ZIP:</b> 60613<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_3493f4b24ae807355c604f5d2c544922.setContent(html_2ed61f9c589eaf2776c72efaa3088a9a);
+            
+        
+
+        marker_09079d19a358cd8a7e58814c67828992.bindPopup(popup_3493f4b24ae807355c604f5d2c544922)
+        ;
+
+        
+    
+    
+            marker_09079d19a358cd8a7e58814c67828992.bindTooltip(
+                `<div>
+                     #21 • TOON'S BAR & GRILL • score=0.715
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_85d1496482d23b1371f532c319c65dc3 = L.marker(
+                [41.968644613011605, -87.69828568537154],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_e6809df61b728798f8b05be69e874842 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f80a99247d88015147d8444a94139ac8 = $(`<div id="html_f80a99247d88015147d8444a94139ac8" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 22<br>     <b>Risk score:</b> 0.715<br>     <b>Name:</b> EL NUEVO PUERTO MARISCOS AND GRILL<br>     <b>Address:</b> 2752 W LAWRENCE AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_e6809df61b728798f8b05be69e874842.setContent(html_f80a99247d88015147d8444a94139ac8);
+            
+        
+
+        marker_85d1496482d23b1371f532c319c65dc3.bindPopup(popup_e6809df61b728798f8b05be69e874842)
+        ;
+
+        
+    
+    
+            marker_85d1496482d23b1371f532c319c65dc3.bindTooltip(
+                `<div>
+                     #22 • EL NUEVO PUERTO MARISCOS AND GRILL • score=0.715
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e2beae2dba2add4e12194156ef0c807c = L.marker(
+                [41.90240591865212, -87.73601801621366],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_4bc7216bce455baa5a864d7ea3000dc2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d9910c2c92410befd63c4992e287b010 = $(`<div id="html_d9910c2c92410befd63c4992e287b010" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 23<br>     <b>Risk score:</b> 0.714<br>     <b>Name:</b> BILL'S PLACE RESTUARANT<br>     <b>Address:</b> 4359 W DIVISION ST<br>     <b>ZIP:</b> 60651<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_4bc7216bce455baa5a864d7ea3000dc2.setContent(html_d9910c2c92410befd63c4992e287b010);
+            
+        
+
+        marker_e2beae2dba2add4e12194156ef0c807c.bindPopup(popup_4bc7216bce455baa5a864d7ea3000dc2)
+        ;
+
+        
+    
+    
+            marker_e2beae2dba2add4e12194156ef0c807c.bindTooltip(
+                `<div>
+                     #23 • BILL'S PLACE RESTUARANT • score=0.714
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_af7d95072a39b9888b7068f3e789a8b3 = L.marker(
+                [41.72238443598619, -87.5733302660471],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_bdcd93704f561f460515b7b76a19369b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ce07ad7db62ed3cebac5d5e4c4e2d451 = $(`<div id="html_ce07ad7db62ed3cebac5d5e4c4e2d451" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 24<br>     <b>Risk score:</b> 0.713<br>     <b>Name:</b> ZONA BURRITO<br>     <b>Address:</b> 2057 E 95TH ST<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_bdcd93704f561f460515b7b76a19369b.setContent(html_ce07ad7db62ed3cebac5d5e4c4e2d451);
+            
+        
+
+        marker_af7d95072a39b9888b7068f3e789a8b3.bindPopup(popup_bdcd93704f561f460515b7b76a19369b)
+        ;
+
+        
+    
+    
+            marker_af7d95072a39b9888b7068f3e789a8b3.bindTooltip(
+                `<div>
+                     #24 • ZONA BURRITO • score=0.713
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6bf690c46e9aedffc1b152293cf31e9b = L.marker(
+                [41.99759055792071, -87.66063912272912],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_aa649cb4ac2ce8783c45a05aa019d665 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5e662eb057d101e5ac594cdb44f0aee7 = $(`<div id="html_5e662eb057d101e5ac594cdb44f0aee7" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 25<br>     <b>Risk score:</b> 0.713<br>     <b>Name:</b> POPEYE'S #832<br>     <b>Address:</b> 6340 N BROADWAY<br>     <b>ZIP:</b> 60660<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_aa649cb4ac2ce8783c45a05aa019d665.setContent(html_5e662eb057d101e5ac594cdb44f0aee7);
+            
+        
+
+        marker_6bf690c46e9aedffc1b152293cf31e9b.bindPopup(popup_aa649cb4ac2ce8783c45a05aa019d665)
+        ;
+
+        
+    
+    
+            marker_6bf690c46e9aedffc1b152293cf31e9b.bindTooltip(
+                `<div>
+                     #25 • POPEYE'S #832 • score=0.713
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6102f011b6445181ea64b0dbbdcd7bf6 = L.marker(
+                [41.96769881732379, -87.68780818484225],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_81fb5b5bee728c1bfd756aeb968c411b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c1a86c81553efe8467699a26e7cd82ce = $(`<div id="html_c1a86c81553efe8467699a26e7cd82ce" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 26<br>     <b>Risk score:</b> 0.712<br>     <b>Name:</b> JERRY'S SANDWICHES<br>     <b>Address:</b> 4739-4743 N LINCOLN AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_81fb5b5bee728c1bfd756aeb968c411b.setContent(html_c1a86c81553efe8467699a26e7cd82ce);
+            
+        
+
+        marker_6102f011b6445181ea64b0dbbdcd7bf6.bindPopup(popup_81fb5b5bee728c1bfd756aeb968c411b)
+        ;
+
+        
+    
+    
+            marker_6102f011b6445181ea64b0dbbdcd7bf6.bindTooltip(
+                `<div>
+                     #26 • JERRY'S SANDWICHES • score=0.712
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0bb5520d27b4683b00c746671654ae64 = L.marker(
+                [41.86629065519555, -87.72456177467829],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_d86eae25d82cc1310ea638c253142b90 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bd942200d8b599bb9f1616e20984c83c = $(`<div id="html_bd942200d8b599bb9f1616e20984c83c" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 27<br>     <b>Risk score:</b> 0.712<br>     <b>Name:</b> SEASHELL<br>     <b>Address:</b> 3944 W ROOSEVELT RD<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_d86eae25d82cc1310ea638c253142b90.setContent(html_bd942200d8b599bb9f1616e20984c83c);
+            
+        
+
+        marker_0bb5520d27b4683b00c746671654ae64.bindPopup(popup_d86eae25d82cc1310ea638c253142b90)
+        ;
+
+        
+    
+    
+            marker_0bb5520d27b4683b00c746671654ae64.bindTooltip(
+                `<div>
+                     #27 • SEASHELL • score=0.712
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ba23069c1e2afb58ad89c3c00ce179d3 = L.marker(
+                [41.98373476698546, -87.65988782352466],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_1bcd38123e47c09d213507beca2c9070 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_441c5768f4b235b833b4f498b22dba65 = $(`<div id="html_441c5768f4b235b833b4f498b22dba65" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 28<br>     <b>Risk score:</b> 0.711<br>     <b>Name:</b> TAQUERIA UPTOWN<br>     <b>Address:</b> 1144 W BRYN MAWR AVE<br>     <b>ZIP:</b> 60660<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_1bcd38123e47c09d213507beca2c9070.setContent(html_441c5768f4b235b833b4f498b22dba65);
+            
+        
+
+        marker_ba23069c1e2afb58ad89c3c00ce179d3.bindPopup(popup_1bcd38123e47c09d213507beca2c9070)
+        ;
+
+        
+    
+    
+            marker_ba23069c1e2afb58ad89c3c00ce179d3.bindTooltip(
+                `<div>
+                     #28 • TAQUERIA UPTOWN • score=0.711
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5e3459c45572d0a191d20cf048fcb793 = L.marker(
+                [41.75849308118378, -87.61647025913092],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_14de777c90b7fd99cf1ff34718c18cd4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_87c36b57f2c8ccc5aa62473b251a24ea = $(`<div id="html_87c36b57f2c8ccc5aa62473b251a24ea" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 29<br>     <b>Risk score:</b> 0.711<br>     <b>Name:</b> MARGARITA'S PIZZERIA<br>     <b>Address:</b> 346 E 75TH ST<br>     <b>ZIP:</b> 60619<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_14de777c90b7fd99cf1ff34718c18cd4.setContent(html_87c36b57f2c8ccc5aa62473b251a24ea);
+            
+        
+
+        marker_5e3459c45572d0a191d20cf048fcb793.bindPopup(popup_14de777c90b7fd99cf1ff34718c18cd4)
+        ;
+
+        
+    
+    
+            marker_5e3459c45572d0a191d20cf048fcb793.bindTooltip(
+                `<div>
+                     #29 • MARGARITA'S PIZZERIA • score=0.711
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bfd0cdbf9c4b452c9e1f6d48a6e04753 = L.marker(
+                [41.84560650077872, -87.6338856144627],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_44a6fa2cd1e126538f834365af903ca7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_57bb44e2541a46178cc6560739966b23 = $(`<div id="html_57bb44e2541a46178cc6560739966b23" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 30<br>     <b>Risk score:</b> 0.711<br>     <b>Name:</b> RICOBENE'S ON 26TH STREET<br>     <b>Address:</b> 252 W 26TH ST<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_44a6fa2cd1e126538f834365af903ca7.setContent(html_57bb44e2541a46178cc6560739966b23);
+            
+        
+
+        marker_bfd0cdbf9c4b452c9e1f6d48a6e04753.bindPopup(popup_44a6fa2cd1e126538f834365af903ca7)
+        ;
+
+        
+    
+    
+            marker_bfd0cdbf9c4b452c9e1f6d48a6e04753.bindTooltip(
+                `<div>
+                     #30 • RICOBENE'S ON 26TH STREET • score=0.711
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8787b9453ac9d36998c28a063c20e7d4 = L.marker(
+                [41.88807037763845, -87.62969225672218],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_d46711a90cead5a63cb98f669d1e27f0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b002bcedab61ee20145fc67ad044ef7d = $(`<div id="html_b002bcedab61ee20145fc67ad044ef7d" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 31<br>     <b>Risk score:</b> 0.710<br>     <b>Name:</b> WESTIN RIVER NORTH CHGO HOTEL - EMBER<br>     <b>Address:</b> 320 N DEARBORN ST<br>     <b>ZIP:</b> 60654<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_d46711a90cead5a63cb98f669d1e27f0.setContent(html_b002bcedab61ee20145fc67ad044ef7d);
+            
+        
+
+        marker_8787b9453ac9d36998c28a063c20e7d4.bindPopup(popup_d46711a90cead5a63cb98f669d1e27f0)
+        ;
+
+        
+    
+    
+            marker_8787b9453ac9d36998c28a063c20e7d4.bindTooltip(
+                `<div>
+                     #31 • WESTIN RIVER NORTH CHGO HOTEL - EMBER • score=0.710
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5dfe44fdf70039f304dc67628d17ca90 = L.marker(
+                [41.92416135745671, -87.76045393873316],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_43b8bd03e130083a4303fd065332fde4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8946f880d0d98782b385f545846cbe51 = $(`<div id="html_8946f880d0d98782b385f545846cbe51" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 32<br>     <b>Risk score:</b> 0.710<br>     <b>Name:</b> Taqueria Los Molcajetes Inc<br>     <b>Address:</b> 5344 W FULLERTON AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_43b8bd03e130083a4303fd065332fde4.setContent(html_8946f880d0d98782b385f545846cbe51);
+            
+        
+
+        marker_5dfe44fdf70039f304dc67628d17ca90.bindPopup(popup_43b8bd03e130083a4303fd065332fde4)
+        ;
+
+        
+    
+    
+            marker_5dfe44fdf70039f304dc67628d17ca90.bindTooltip(
+                `<div>
+                     #32 • Taqueria Los Molcajetes Inc • score=0.710
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9b09b8805583003b2a0e9d9fc70fa8dd = L.marker(
+                [41.6981699973446, -87.62102419675304],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_5d741cf03cd923681574840d813b56a3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1e7639e3416d80a8b11783a4359cf1fe = $(`<div id="html_1e7639e3416d80a8b11783a4359cf1fe" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 33<br>     <b>Risk score:</b> 0.710<br>     <b>Name:</b> A.P. DELI RESTAURANT GROUP, INC.<br>     <b>Address:</b> 10758 S MICHIGAN AVE<br>     <b>ZIP:</b> 60628<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_5d741cf03cd923681574840d813b56a3.setContent(html_1e7639e3416d80a8b11783a4359cf1fe);
+            
+        
+
+        marker_9b09b8805583003b2a0e9d9fc70fa8dd.bindPopup(popup_5d741cf03cd923681574840d813b56a3)
+        ;
+
+        
+    
+    
+            marker_9b09b8805583003b2a0e9d9fc70fa8dd.bindTooltip(
+                `<div>
+                     #33 • A.P. DELI RESTAURANT GROUP, INC. • score=0.710
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4f0beace37df6f31f2899464ddd1d6b2 = L.marker(
+                [41.91042628591067, -87.73749493856984],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_89f59fe07e9064ab7cb0839f4ef9aa09 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b9353459267f2657d7af820bdb26d167 = $(`<div id="html_b9353459267f2657d7af820bdb26d167" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 34<br>     <b>Risk score:</b> 0.709<br>     <b>Name:</b> SUBWAY<br>     <b>Address:</b> 4435 W GRAND AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_89f59fe07e9064ab7cb0839f4ef9aa09.setContent(html_b9353459267f2657d7af820bdb26d167);
+            
+        
+
+        marker_4f0beace37df6f31f2899464ddd1d6b2.bindPopup(popup_89f59fe07e9064ab7cb0839f4ef9aa09)
+        ;
+
+        
+    
+    
+            marker_4f0beace37df6f31f2899464ddd1d6b2.bindTooltip(
+                `<div>
+                     #34 • SUBWAY • score=0.709
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5938933c061b275d1063e710add68daf = L.marker(
+                [41.954276019666246, -87.6780332991192],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_59054389c6b57b8949db56753a39bb55 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_193d3917a58c9e1618ba4e240cbfb96c = $(`<div id="html_193d3917a58c9e1618ba4e240cbfb96c" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 35<br>     <b>Risk score:</b> 0.708<br>     <b>Name:</b> ORANGE GARDEN RESTAURANT LLC<br>     <b>Address:</b> 1942 W IRVING PARK RD<br>     <b>ZIP:</b> 60613<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_59054389c6b57b8949db56753a39bb55.setContent(html_193d3917a58c9e1618ba4e240cbfb96c);
+            
+        
+
+        marker_5938933c061b275d1063e710add68daf.bindPopup(popup_59054389c6b57b8949db56753a39bb55)
+        ;
+
+        
+    
+    
+            marker_5938933c061b275d1063e710add68daf.bindTooltip(
+                `<div>
+                     #35 • ORANGE GARDEN RESTAURANT LLC • score=0.708
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_96564f225a0c5ee31d7e6cebe4b479ed = L.marker(
+                [41.702845543419045, -87.53584559419713],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_df18566264f3919b7330f17e37ce88ab = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7852a10509677987b58fd2c06ae42e52 = $(`<div id="html_7852a10509677987b58fd2c06ae42e52" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 36<br>     <b>Risk score:</b> 0.708<br>     <b>Name:</b> LA GUERA RESTAURANT<br>     <b>Address:</b> 3614 E 106TH ST<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_df18566264f3919b7330f17e37ce88ab.setContent(html_7852a10509677987b58fd2c06ae42e52);
+            
+        
+
+        marker_96564f225a0c5ee31d7e6cebe4b479ed.bindPopup(popup_df18566264f3919b7330f17e37ce88ab)
+        ;
+
+        
+    
+    
+            marker_96564f225a0c5ee31d7e6cebe4b479ed.bindTooltip(
+                `<div>
+                     #36 • LA GUERA RESTAURANT • score=0.708
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_da9b7180a22899d7b9cfd5e1d3901823 = L.marker(
+                [41.73869100380115, -87.58510330731285],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_d286d92bdd312cd5714fe331e0c50f66 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c9cf400efa185678b6a728a328f3bc94 = $(`<div id="html_c9cf400efa185678b6a728a328f3bc94" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 37<br>     <b>Risk score:</b> 0.707<br>     <b>Name:</b> HOE TOY CHOP SUEY<br>     <b>Address:</b> 8601 S STONY ISLAND AVE<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_d286d92bdd312cd5714fe331e0c50f66.setContent(html_c9cf400efa185678b6a728a328f3bc94);
+            
+        
+
+        marker_da9b7180a22899d7b9cfd5e1d3901823.bindPopup(popup_d286d92bdd312cd5714fe331e0c50f66)
+        ;
+
+        
+    
+    
+            marker_da9b7180a22899d7b9cfd5e1d3901823.bindTooltip(
+                `<div>
+                     #37 • HOE TOY CHOP SUEY • score=0.707
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3f3f24d03f05f26fb6a722d4d906af22 = L.marker(
+                [41.90817759983461, -87.74621519474273],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_b3a9f92795b415e54347976c806cc0eb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1aa01ec0c4f329b821901b060f82b09a = $(`<div id="html_1aa01ec0c4f329b821901b060f82b09a" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 38<br>     <b>Risk score:</b> 0.707<br>     <b>Name:</b> SUBWAY<br>     <b>Address:</b> 1510 N CICERO AVE<br>     <b>ZIP:</b> 60651<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_b3a9f92795b415e54347976c806cc0eb.setContent(html_1aa01ec0c4f329b821901b060f82b09a);
+            
+        
+
+        marker_3f3f24d03f05f26fb6a722d4d906af22.bindPopup(popup_b3a9f92795b415e54347976c806cc0eb)
+        ;
+
+        
+    
+    
+            marker_3f3f24d03f05f26fb6a722d4d906af22.bindTooltip(
+                `<div>
+                     #38 • SUBWAY • score=0.707
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_42be305fae60587bb16d531bc1ff931a = L.marker(
+                [41.94686638500084, -87.66992922716085],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_42b43a7c27b8299cb979c6a40bd8cbf3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2b5a925fe05f19aff98c48ea2ef4482a = $(`<div id="html_2b5a925fe05f19aff98c48ea2ef4482a" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 39<br>     <b>Risk score:</b> 0.707<br>     <b>Name:</b> CAFE TOLA III<br>     <b>Address:</b> 1625 W ADDISON AVE<br>     <b>ZIP:</b> 60613<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_42b43a7c27b8299cb979c6a40bd8cbf3.setContent(html_2b5a925fe05f19aff98c48ea2ef4482a);
+            
+        
+
+        marker_42be305fae60587bb16d531bc1ff931a.bindPopup(popup_42b43a7c27b8299cb979c6a40bd8cbf3)
+        ;
+
+        
+    
+    
+            marker_42be305fae60587bb16d531bc1ff931a.bindTooltip(
+                `<div>
+                     #39 • CAFE TOLA III • score=0.707
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_db63ce5485d3a292739f4a70c0a38344 = L.marker(
+                [41.916815033964035, -87.74705760204894],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_e64915df1d9e9211f04e5a7b655f76a4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4ce0228322dffa58d9825faf929c4a7c = $(`<div id="html_4ce0228322dffa58d9825faf929c4a7c" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 40<br>     <b>Risk score:</b> 0.706<br>     <b>Name:</b> Las Delicias De Puerto Rico<br>     <b>Address:</b> 4821 W ARMITAGE AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_e64915df1d9e9211f04e5a7b655f76a4.setContent(html_4ce0228322dffa58d9825faf929c4a7c);
+            
+        
+
+        marker_db63ce5485d3a292739f4a70c0a38344.bindPopup(popup_e64915df1d9e9211f04e5a7b655f76a4)
+        ;
+
+        
+    
+    
+            marker_db63ce5485d3a292739f4a70c0a38344.bindTooltip(
+                `<div>
+                     #40 • Las Delicias De Puerto Rico • score=0.706
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d78555c06ec43092828cde431a2ff2ff = L.marker(
+                [41.931457214225205, -87.7605265711278],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_2f2422ae55f796cf4d70587784066667 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_59896531fa53f16cdad9ede4e5ecf06a = $(`<div id="html_59896531fa53f16cdad9ede4e5ecf06a" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 41<br>     <b>Risk score:</b> 0.705<br>     <b>Name:</b> EL MIRADOR RESTAURANT<br>     <b>Address:</b> 5340 W DIVERSEY AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_2f2422ae55f796cf4d70587784066667.setContent(html_59896531fa53f16cdad9ede4e5ecf06a);
+            
+        
+
+        marker_d78555c06ec43092828cde431a2ff2ff.bindPopup(popup_2f2422ae55f796cf4d70587784066667)
+        ;
+
+        
+    
+    
+            marker_d78555c06ec43092828cde431a2ff2ff.bindTooltip(
+                `<div>
+                     #41 • EL MIRADOR RESTAURANT • score=0.705
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5659034137e7667afa9e5fa08612b326 = L.marker(
+                [41.849379215218015, -87.64105840223819],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_7230ec7c4fc337dd964b0c59981d0643 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_deea97b619daa1ff0fd4c9d17513381e = $(`<div id="html_deea97b619daa1ff0fd4c9d17513381e" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 42<br>     <b>Risk score:</b> 0.705<br>     <b>Name:</b> CONNIE'S PIZZA<br>     <b>Address:</b> 2373 S ARCHER AVE<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_7230ec7c4fc337dd964b0c59981d0643.setContent(html_deea97b619daa1ff0fd4c9d17513381e);
+            
+        
+
+        marker_5659034137e7667afa9e5fa08612b326.bindPopup(popup_7230ec7c4fc337dd964b0c59981d0643)
+        ;
+
+        
+    
+    
+            marker_5659034137e7667afa9e5fa08612b326.bindTooltip(
+                `<div>
+                     #42 • CONNIE'S PIZZA • score=0.705
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc13147f48191382c31995c865155555 = L.marker(
+                [41.95371591865941, -87.65014628741659],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_9671b5e8aa335c6f577f70d06194e11d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4710b4648ef2fd76d6ac0872799906a2 = $(`<div id="html_4710b4648ef2fd76d6ac0872799906a2" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 43<br>     <b>Risk score:</b> 0.704<br>     <b>Name:</b> WINDY CITY GYROS<br>     <b>Address:</b> 3932 N BROADWAY<br>     <b>ZIP:</b> 60613<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_9671b5e8aa335c6f577f70d06194e11d.setContent(html_4710b4648ef2fd76d6ac0872799906a2);
+            
+        
+
+        marker_fc13147f48191382c31995c865155555.bindPopup(popup_9671b5e8aa335c6f577f70d06194e11d)
+        ;
+
+        
+    
+    
+            marker_fc13147f48191382c31995c865155555.bindTooltip(
+                `<div>
+                     #43 • WINDY CITY GYROS • score=0.704
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_49831a580371570cd19c84e2c728c60f = L.marker(
+                [41.86645726892189, -87.71066733173923],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_dd7ea0c8757c78d6e5687efdbe9e5955 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e7a2a2e34a90933407bb41573e628ced = $(`<div id="html_e7a2a2e34a90933407bb41573e628ced" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 44<br>     <b>Risk score:</b> 0.703<br>     <b>Name:</b> STAR GYROS<br>     <b>Address:</b> 3400 W ROOSEVELT RD<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_dd7ea0c8757c78d6e5687efdbe9e5955.setContent(html_e7a2a2e34a90933407bb41573e628ced);
+            
+        
+
+        marker_49831a580371570cd19c84e2c728c60f.bindPopup(popup_dd7ea0c8757c78d6e5687efdbe9e5955)
+        ;
+
+        
+    
+    
+            marker_49831a580371570cd19c84e2c728c60f.bindTooltip(
+                `<div>
+                     #44 • STAR GYROS • score=0.703
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6faf475dc1f63eda10d003cbd23c1d5e = L.marker(
+                [41.96990105332927, -87.70837118271751],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_b4d9093e6aed880bbe0dbbdb3af06df0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_207aa93bd41c7a42086bf35db23d80de = $(`<div id="html_207aa93bd41c7a42086bf35db23d80de" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 45<br>     <b>Risk score:</b> 0.702<br>     <b>Name:</b> ANTEPLI TURKISH GOURMET<br>     <b>Address:</b> 4849 N KEDZIE AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_b4d9093e6aed880bbe0dbbdb3af06df0.setContent(html_207aa93bd41c7a42086bf35db23d80de);
+            
+        
+
+        marker_6faf475dc1f63eda10d003cbd23c1d5e.bindPopup(popup_b4d9093e6aed880bbe0dbbdb3af06df0)
+        ;
+
+        
+    
+    
+            marker_6faf475dc1f63eda10d003cbd23c1d5e.bindTooltip(
+                `<div>
+                     #45 • ANTEPLI TURKISH GOURMET • score=0.702
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8fc9cc4472513105023f6fe4c45a9dbe = L.marker(
+                [41.968146880215976, -87.72649853698593],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_de9c754cf3730fb3e9b8a3737c426e75 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4a1307b5c6799bdcb45ee4989922b0a9 = $(`<div id="html_4a1307b5c6799bdcb45ee4989922b0a9" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 46<br>     <b>Risk score:</b> 0.702<br>     <b>Name:</b> YUMMY BUFFET<br>     <b>Address:</b> 3921-3925 W LAWRENCE AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_de9c754cf3730fb3e9b8a3737c426e75.setContent(html_4a1307b5c6799bdcb45ee4989922b0a9);
+            
+        
+
+        marker_8fc9cc4472513105023f6fe4c45a9dbe.bindPopup(popup_de9c754cf3730fb3e9b8a3737c426e75)
+        ;
+
+        
+    
+    
+            marker_8fc9cc4472513105023f6fe4c45a9dbe.bindTooltip(
+                `<div>
+                     #46 • YUMMY BUFFET • score=0.702
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a5a67326f81f3d17b0285fda9258d073 = L.marker(
+                [41.85213018909318, -87.63185039377264],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_ed79ef1b4a5e97698a96a031789064a3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fccf6dab5de7c5b34df9db4562c972c3 = $(`<div id="html_fccf6dab5de7c5b34df9db4562c972c3" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 47<br>     <b>Risk score:</b> 0.702<br>     <b>Name:</b> MAYFLOWER SEAFOOD RESTAURANT, LLC<br>     <b>Address:</b> 2225 S WENTWORTH AVE<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_ed79ef1b4a5e97698a96a031789064a3.setContent(html_fccf6dab5de7c5b34df9db4562c972c3);
+            
+        
+
+        marker_a5a67326f81f3d17b0285fda9258d073.bindPopup(popup_ed79ef1b4a5e97698a96a031789064a3)
+        ;
+
+        
+    
+    
+            marker_a5a67326f81f3d17b0285fda9258d073.bindTooltip(
+                `<div>
+                     #47 • MAYFLOWER SEAFOOD RESTAURANT, LLC • score=0.702
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_197737dcef1290320bdcc55afb65fdc5 = L.marker(
+                [41.868622038898906, -87.62426074366299],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_b91e93075912ed6aee92e7e13576ef30 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ceb8b2b26d9434d1713c15a72abe3953 = $(`<div id="html_ceb8b2b26d9434d1713c15a72abe3953" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 48<br>     <b>Risk score:</b> 0.702<br>     <b>Name:</b> YOLK<br>     <b>Address:</b> 1120 S MICHIGAN AVE<br>     <b>ZIP:</b> 60605<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_b91e93075912ed6aee92e7e13576ef30.setContent(html_ceb8b2b26d9434d1713c15a72abe3953);
+            
+        
+
+        marker_197737dcef1290320bdcc55afb65fdc5.bindPopup(popup_b91e93075912ed6aee92e7e13576ef30)
+        ;
+
+        
+    
+    
+            marker_197737dcef1290320bdcc55afb65fdc5.bindTooltip(
+                `<div>
+                     #48 • YOLK • score=0.702
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2b4db5cd0cfd7a454d6605ecc4d05fde = L.marker(
+                [41.85364730282216, -87.633466914487],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_d7d0fb27448880302fa5b6bd03483c4b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f55d097b09a6409f6bd622724e9c2763 = $(`<div id="html_f55d097b09a6409f6bd622724e9c2763" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 49<br>     <b>Risk score:</b> 0.702<br>     <b>Name:</b> PHO HUNG<br>     <b>Address:</b> 2140A S ARCHER AVE<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_d7d0fb27448880302fa5b6bd03483c4b.setContent(html_f55d097b09a6409f6bd622724e9c2763);
+            
+        
+
+        marker_2b4db5cd0cfd7a454d6605ecc4d05fde.bindPopup(popup_d7d0fb27448880302fa5b6bd03483c4b)
+        ;
+
+        
+    
+    
+            marker_2b4db5cd0cfd7a454d6605ecc4d05fde.bindTooltip(
+                `<div>
+                     #49 • PHO HUNG • score=0.702
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bfae86850b72bff0df9a5ea56fea91e7 = L.marker(
+                [41.76854144272993, -87.72235766333931],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_2c7c1a793a3afd366d9df056ca3b37c7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_aa3910817b37bc7e247c39c3ac5a1253 = $(`<div id="html_aa3910817b37bc7e247c39c3ac5a1253" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 50<br>     <b>Risk score:</b> 0.701<br>     <b>Name:</b> MARISCO EL VENENO #2 CORP.<br>     <b>Address:</b> 6835 S PULASKI RD<br>     <b>ZIP:</b> 60629<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_2c7c1a793a3afd366d9df056ca3b37c7.setContent(html_aa3910817b37bc7e247c39c3ac5a1253);
+            
+        
+
+        marker_bfae86850b72bff0df9a5ea56fea91e7.bindPopup(popup_2c7c1a793a3afd366d9df056ca3b37c7)
+        ;
+
+        
+    
+    
+            marker_bfae86850b72bff0df9a5ea56fea91e7.bindTooltip(
+                `<div>
+                     #50 • MARISCO EL VENENO #2 CORP. • score=0.701
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d649fa5df5a32f21a60935a27b721fe9 = L.marker(
+                [41.92703609309985, -87.7561061829788],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_a22b4693d39e69e96190d4eba899d061 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8d1d1e032eb39b411eece8d2308b2483 = $(`<div id="html_8d1d1e032eb39b411eece8d2308b2483" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 51<br>     <b>Risk score:</b> 0.701<br>     <b>Name:</b> ESQUINA DEL SABOR CATROCHO<br>     <b>Address:</b> 2535 N LARAMIE AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_a22b4693d39e69e96190d4eba899d061.setContent(html_8d1d1e032eb39b411eece8d2308b2483);
+            
+        
+
+        marker_d649fa5df5a32f21a60935a27b721fe9.bindPopup(popup_a22b4693d39e69e96190d4eba899d061)
+        ;
+
+        
+    
+    
+            marker_d649fa5df5a32f21a60935a27b721fe9.bindTooltip(
+                `<div>
+                     #51 • ESQUINA DEL SABOR CATROCHO • score=0.701
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0702715897973fce92719c5e84dc726d = L.marker(
+                [41.968518497633795, -87.71263165748292],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_e5621549b1e48673c7ab8025db48f0ca = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6c06d86af4caaecf1ab3f717f5d8eb09 = $(`<div id="html_6c06d86af4caaecf1ab3f717f5d8eb09" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 52<br>     <b>Risk score:</b> 0.701<br>     <b>Name:</b> GOLDEN GRAIN BAKERY AND DONUTS CORPORATION<br>     <b>Address:</b> 3342 W LAWRENCE AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_e5621549b1e48673c7ab8025db48f0ca.setContent(html_6c06d86af4caaecf1ab3f717f5d8eb09);
+            
+        
+
+        marker_0702715897973fce92719c5e84dc726d.bindPopup(popup_e5621549b1e48673c7ab8025db48f0ca)
+        ;
+
+        
+    
+    
+            marker_0702715897973fce92719c5e84dc726d.bindTooltip(
+                `<div>
+                     #52 • GOLDEN GRAIN BAKERY AND DONUTS CORPORATION • score=0.701
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3a1d255951e2ca9ee4f472a59196892c = L.marker(
+                [41.92414063497689, -87.74552933864975],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_f29cb0e3d8994f54abbca602d5cad982 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4a63703f981d073ea6114bc5333d06b8 = $(`<div id="html_4a63703f981d073ea6114bc5333d06b8" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 53<br>     <b>Risk score:</b> 0.700<br>     <b>Name:</b> COCHIAROS PIZZA #2<br>     <b>Address:</b> 4741 W FULLERTON AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_f29cb0e3d8994f54abbca602d5cad982.setContent(html_4a63703f981d073ea6114bc5333d06b8);
+            
+        
+
+        marker_3a1d255951e2ca9ee4f472a59196892c.bindPopup(popup_f29cb0e3d8994f54abbca602d5cad982)
+        ;
+
+        
+    
+    
+            marker_3a1d255951e2ca9ee4f472a59196892c.bindTooltip(
+                `<div>
+                     #53 • COCHIAROS PIZZA #2 • score=0.700
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aae40d968d91a9ed03f257eb7abc0c6e = L.marker(
+                [41.994391180074615, -87.67029582459736],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_808922506bd3608460fd688ee251dc2b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d6b7b95f1af68feb4136581655090ed6 = $(`<div id="html_d6b7b95f1af68feb4136581655090ed6" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 54<br>     <b>Risk score:</b> 0.700<br>     <b>Name:</b> ALEXANDER'S<br>     <b>Address:</b> 6158 N CLARK ST<br>     <b>ZIP:</b> 60660<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_808922506bd3608460fd688ee251dc2b.setContent(html_d6b7b95f1af68feb4136581655090ed6);
+            
+        
+
+        marker_aae40d968d91a9ed03f257eb7abc0c6e.bindPopup(popup_808922506bd3608460fd688ee251dc2b)
+        ;
+
+        
+    
+    
+            marker_aae40d968d91a9ed03f257eb7abc0c6e.bindTooltip(
+                `<div>
+                     #54 • ALEXANDER'S • score=0.700
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5af1ff9ef3f2b706fd6e60d24918a88b = L.marker(
+                [41.868622038898906, -87.62426074366299],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_391c451dfc12256fe08418972a8a091e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a2deba7519de0f805177689ee96640ba = $(`<div id="html_a2deba7519de0f805177689ee96640ba" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 55<br>     <b>Risk score:</b> 0.700<br>     <b>Name:</b> YOLK<br>     <b>Address:</b> 1120 S MICHIGAN AVE<br>     <b>ZIP:</b> 60605<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_391c451dfc12256fe08418972a8a091e.setContent(html_a2deba7519de0f805177689ee96640ba);
+            
+        
+
+        marker_5af1ff9ef3f2b706fd6e60d24918a88b.bindPopup(popup_391c451dfc12256fe08418972a8a091e)
+        ;
+
+        
+    
+    
+            marker_5af1ff9ef3f2b706fd6e60d24918a88b.bindTooltip(
+                `<div>
+                     #55 • YOLK • score=0.700
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_aae7d22d28dae9502a647d2f30218091 = L.marker(
+                [41.880769739053655, -87.73115609692752],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_9a603b9c9a4d6e9213c45a3e137190c6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_db1b355151607f45b3d3045d72918cf7 = $(`<div id="html_db1b355151607f45b3d3045d72918cf7" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 56<br>     <b>Risk score:</b> 0.700<br>     <b>Name:</b> LUIGI'S PIZZA BY THE SLICE, INC<br>     <b>Address:</b> 4212 W MADISON ST<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_9a603b9c9a4d6e9213c45a3e137190c6.setContent(html_db1b355151607f45b3d3045d72918cf7);
+            
+        
+
+        marker_aae7d22d28dae9502a647d2f30218091.bindPopup(popup_9a603b9c9a4d6e9213c45a3e137190c6)
+        ;
+
+        
+    
+    
+            marker_aae7d22d28dae9502a647d2f30218091.bindTooltip(
+                `<div>
+                     #56 • LUIGI'S PIZZA BY THE SLICE, INC • score=0.700
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_50d6e9d923a916999dea76a79f5dfcd1 = L.marker(
+                [41.90881690342746, -87.72633397100529],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_9668f4dc7caa200006c7b19bde20dc8d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c6ab12055f4890f8e87f962a777a745c = $(`<div id="html_c6ab12055f4890f8e87f962a777a745c" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 57<br>     <b>Risk score:</b> 0.700<br>     <b>Name:</b> RESTAURANT & POZOLERIA SAN JUAN<br>     <b>Address:</b> 1523 N PULASKI RD<br>     <b>ZIP:</b> 60651<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_9668f4dc7caa200006c7b19bde20dc8d.setContent(html_c6ab12055f4890f8e87f962a777a745c);
+            
+        
+
+        marker_50d6e9d923a916999dea76a79f5dfcd1.bindPopup(popup_9668f4dc7caa200006c7b19bde20dc8d)
+        ;
+
+        
+    
+    
+            marker_50d6e9d923a916999dea76a79f5dfcd1.bindTooltip(
+                `<div>
+                     #57 • RESTAURANT & POZOLERIA SAN JUAN • score=0.700
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9f5d59c48f5868ba4b5e1c7b7ce1ffdf = L.marker(
+                [41.89493600584935, -87.767324234848],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_b7ba90a9a2e3813383b30b0e7b634df2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_da448cb818d4d3d5ee54fdf63b5b4132 = $(`<div id="html_da448cb818d4d3d5ee54fdf63b5b4132" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 58<br>     <b>Risk score:</b> 0.699<br>     <b>Name:</b> BARNEY'S PIZZA<br>     <b>Address:</b> 5648 W CHICAGO AVE<br>     <b>ZIP:</b> 60651<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_b7ba90a9a2e3813383b30b0e7b634df2.setContent(html_da448cb818d4d3d5ee54fdf63b5b4132);
+            
+        
+
+        marker_9f5d59c48f5868ba4b5e1c7b7ce1ffdf.bindPopup(popup_b7ba90a9a2e3813383b30b0e7b634df2)
+        ;
+
+        
+    
+    
+            marker_9f5d59c48f5868ba4b5e1c7b7ce1ffdf.bindTooltip(
+                `<div>
+                     #58 • BARNEY'S PIZZA • score=0.699
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_55ec054243561022162c3dc4acc4d7a4 = L.marker(
+                [41.8808046152, -87.71137549591673],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_656a599fb6474cef7fdc0596dbe74927 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_288662acb49efd4105b24198186d791e = $(`<div id="html_288662acb49efd4105b24198186d791e" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 59<br>     <b>Risk score:</b> 0.699<br>     <b>Name:</b> BABA'S FAMOUS STEAK AND LEMONADE<br>     <b>Address:</b> 3407 1/2 W MADISON ST<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_656a599fb6474cef7fdc0596dbe74927.setContent(html_288662acb49efd4105b24198186d791e);
+            
+        
+
+        marker_55ec054243561022162c3dc4acc4d7a4.bindPopup(popup_656a599fb6474cef7fdc0596dbe74927)
+        ;
+
+        
+    
+    
+            marker_55ec054243561022162c3dc4acc4d7a4.bindTooltip(
+                `<div>
+                     #59 • BABA'S FAMOUS STEAK AND LEMONADE • score=0.699
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_09e2e80b298937f77876e6ba20e7dc80 = L.marker(
+                [41.969509310771365, -87.76233991171351],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_5c61e2289d97c80b002ed5cb6f1e84a8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e2c384f83b7ec2f9e8eac1e581767748 = $(`<div id="html_e2c384f83b7ec2f9e8eac1e581767748" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 60<br>     <b>Risk score:</b> 0.699<br>     <b>Name:</b> Popeyes Chicken And Biscuits<br>     <b>Address:</b> 4866-4868 N Milwaukee AVE<br>     <b>ZIP:</b> 60630<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_5c61e2289d97c80b002ed5cb6f1e84a8.setContent(html_e2c384f83b7ec2f9e8eac1e581767748);
+            
+        
+
+        marker_09e2e80b298937f77876e6ba20e7dc80.bindPopup(popup_5c61e2289d97c80b002ed5cb6f1e84a8)
+        ;
+
+        
+    
+    
+            marker_09e2e80b298937f77876e6ba20e7dc80.bindTooltip(
+                `<div>
+                     #60 • Popeyes Chicken And Biscuits • score=0.699
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1976a21cd60715d53f45c75ef2a4aa10 = L.marker(
+                [41.86645726892189, -87.71066733173923],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_5c89c685063b7bba5004ed134a1ed8e8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_403bcd9ddc8867fef5c025a3dd62abdc = $(`<div id="html_403bcd9ddc8867fef5c025a3dd62abdc" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 61<br>     <b>Risk score:</b> 0.698<br>     <b>Name:</b> STAR GYROS<br>     <b>Address:</b> 3400 W ROOSEVELT RD<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_5c89c685063b7bba5004ed134a1ed8e8.setContent(html_403bcd9ddc8867fef5c025a3dd62abdc);
+            
+        
+
+        marker_1976a21cd60715d53f45c75ef2a4aa10.bindPopup(popup_5c89c685063b7bba5004ed134a1ed8e8)
+        ;
+
+        
+    
+    
+            marker_1976a21cd60715d53f45c75ef2a4aa10.bindTooltip(
+                `<div>
+                     #61 • STAR GYROS • score=0.698
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_757eed033e383e0238cde62c73cbbfc3 = L.marker(
+                [41.966157928904785, -87.70120563065224],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_9e5297eac695be9ac7f73e29d62243a4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_51a1389e89da4623aee13ae3b039db4d = $(`<div id="html_51a1389e89da4623aee13ae3b039db4d" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 62<br>     <b>Risk score:</b> 0.698<br>     <b>Name:</b> PIE CAFE, LLC<br>     <b>Address:</b> 4664 N MANOR AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_9e5297eac695be9ac7f73e29d62243a4.setContent(html_51a1389e89da4623aee13ae3b039db4d);
+            
+        
+
+        marker_757eed033e383e0238cde62c73cbbfc3.bindPopup(popup_9e5297eac695be9ac7f73e29d62243a4)
+        ;
+
+        
+    
+    
+            marker_757eed033e383e0238cde62c73cbbfc3.bindTooltip(
+                `<div>
+                     #62 • PIE CAFE, LLC • score=0.698
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b9adf19faf108fa7a0d4e0dc404eb346 = L.marker(
+                [41.96641308847062, -87.68693718914149],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_b7b81e0c6f32600fe539e9fb7c4e1383 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d8297ced9a9ed99b8390172433c671e8 = $(`<div id="html_d8297ced9a9ed99b8390172433c671e8" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 63<br>     <b>Risk score:</b> 0.698<br>     <b>Name:</b> BAKER MILLER<br>     <b>Address:</b> 4655 N LINCOLN AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_b7b81e0c6f32600fe539e9fb7c4e1383.setContent(html_d8297ced9a9ed99b8390172433c671e8);
+            
+        
+
+        marker_b9adf19faf108fa7a0d4e0dc404eb346.bindPopup(popup_b7b81e0c6f32600fe539e9fb7c4e1383)
+        ;
+
+        
+    
+    
+            marker_b9adf19faf108fa7a0d4e0dc404eb346.bindTooltip(
+                `<div>
+                     #63 • BAKER MILLER • score=0.698
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6a02c8c0ac6f2b34fe9a5ebf71dcef5a = L.marker(
+                [41.8564944437266, -87.627317220209],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_ec3c5e261cbf8756ff2efdbaa025d9ae = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8c09b2aea32d3fe36ada4af6b8f21467 = $(`<div id="html_8c09b2aea32d3fe36ada4af6b8f21467" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 64<br>     <b>Risk score:</b> 0.697<br>     <b>Name:</b> THE BURGER POINT<br>     <b>Address:</b> 1900 S STATE ST<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_ec3c5e261cbf8756ff2efdbaa025d9ae.setContent(html_8c09b2aea32d3fe36ada4af6b8f21467);
+            
+        
+
+        marker_6a02c8c0ac6f2b34fe9a5ebf71dcef5a.bindPopup(popup_ec3c5e261cbf8756ff2efdbaa025d9ae)
+        ;
+
+        
+    
+    
+            marker_6a02c8c0ac6f2b34fe9a5ebf71dcef5a.bindTooltip(
+                `<div>
+                     #64 • THE BURGER POINT • score=0.697
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f38a9211b4f1c631ef2d5c3dfa54f313 = L.marker(
+                [41.85388763911751, -87.6329701585942],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_88bb5286ac2d68fd6c097c73baa9a246 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ef6aa47ee5b89740708570d41b9f2833 = $(`<div id="html_ef6aa47ee5b89740708570d41b9f2833" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 65<br>     <b>Risk score:</b> 0.697<br>     <b>Name:</b> KUNGFU TEA<br>     <b>Address:</b> 2126 S ARCHER AVE<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_88bb5286ac2d68fd6c097c73baa9a246.setContent(html_ef6aa47ee5b89740708570d41b9f2833);
+            
+        
+
+        marker_f38a9211b4f1c631ef2d5c3dfa54f313.bindPopup(popup_88bb5286ac2d68fd6c097c73baa9a246)
+        ;
+
+        
+    
+    
+            marker_f38a9211b4f1c631ef2d5c3dfa54f313.bindTooltip(
+                `<div>
+                     #65 • KUNGFU TEA • score=0.697
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_538fd79c72b304cba2bd6c01ba1afb2a = L.marker(
+                [41.96827375769163, -87.7150390070548],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_396806f8ce45499faaa6aa387dfea2da = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_156d6b3f0d527bc11dc63ea68975d6f0 = $(`<div id="html_156d6b3f0d527bc11dc63ea68975d6f0" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 66<br>     <b>Risk score:</b> 0.696<br>     <b>Name:</b> ALEBRIJES CAFE<br>     <b>Address:</b> 3441 W Lawrence AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_396806f8ce45499faaa6aa387dfea2da.setContent(html_156d6b3f0d527bc11dc63ea68975d6f0);
+            
+        
+
+        marker_538fd79c72b304cba2bd6c01ba1afb2a.bindPopup(popup_396806f8ce45499faaa6aa387dfea2da)
+        ;
+
+        
+    
+    
+            marker_538fd79c72b304cba2bd6c01ba1afb2a.bindTooltip(
+                `<div>
+                     #66 • ALEBRIJES CAFE • score=0.696
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_253d19aaa2a1cb756e294a187e6a8cec = L.marker(
+                [41.9683991905832, -87.72355115796904],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_8b0175affb5a0c521137b0f24c7f67c1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_da36d31dc474a36d2cad0110c38244e1 = $(`<div id="html_da36d31dc474a36d2cad0110c38244e1" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 67<br>     <b>Risk score:</b> 0.696<br>     <b>Name:</b> LA COCO MEXICAN FOOD<br>     <b>Address:</b> 3808 W LAWRENCE AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_8b0175affb5a0c521137b0f24c7f67c1.setContent(html_da36d31dc474a36d2cad0110c38244e1);
+            
+        
+
+        marker_253d19aaa2a1cb756e294a187e6a8cec.bindPopup(popup_8b0175affb5a0c521137b0f24c7f67c1)
+        ;
+
+        
+    
+    
+            marker_253d19aaa2a1cb756e294a187e6a8cec.bindTooltip(
+                `<div>
+                     #67 • LA COCO MEXICAN FOOD • score=0.696
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_03442b10664714b058aefbf82daf0ad5 = L.marker(
+                [41.85362260604301, -87.63505989413537],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_724e37c36f8fb4fe5be6aac602f04f3a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4a5b18c3374a294dc85fa225fb892c48 = $(`<div id="html_4a5b18c3374a294dc85fa225fb892c48" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 68<br>     <b>Risk score:</b> 0.695<br>     <b>Name:</b> JOY YEE PLUS<br>     <b>Address:</b> 2159 S CHINA PL<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_724e37c36f8fb4fe5be6aac602f04f3a.setContent(html_4a5b18c3374a294dc85fa225fb892c48);
+            
+        
+
+        marker_03442b10664714b058aefbf82daf0ad5.bindPopup(popup_724e37c36f8fb4fe5be6aac602f04f3a)
+        ;
+
+        
+    
+    
+            marker_03442b10664714b058aefbf82daf0ad5.bindTooltip(
+                `<div>
+                     #68 • JOY YEE PLUS • score=0.695
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e1bcc591eff7586c767f815d84561f42 = L.marker(
+                [41.916815033964035, -87.74705760204894],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_ae332d80a9eb2dea8822497041d32fc9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5b5da7c5868383636c91bcaab1923623 = $(`<div id="html_5b5da7c5868383636c91bcaab1923623" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 69<br>     <b>Risk score:</b> 0.695<br>     <b>Name:</b> Las Delicias De Puerto Rico<br>     <b>Address:</b> 4821 W ARMITAGE AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_ae332d80a9eb2dea8822497041d32fc9.setContent(html_5b5da7c5868383636c91bcaab1923623);
+            
+        
+
+        marker_e1bcc591eff7586c767f815d84561f42.bindPopup(popup_ae332d80a9eb2dea8822497041d32fc9)
+        ;
+
+        
+    
+    
+            marker_e1bcc591eff7586c767f815d84561f42.bindTooltip(
+                `<div>
+                     #69 • Las Delicias De Puerto Rico • score=0.695
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a886d2e35ecd90bd2c712ff9be292a3a = L.marker(
+                [41.922290327789355, -87.78469456032644],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_93c4417b71e75d8d9e9d0b65731c3201 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_885f2d257ff43a5ec2ba462df28d57d4 = $(`<div id="html_885f2d257ff43a5ec2ba462df28d57d4" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 70<br>     <b>Risk score:</b> 0.694<br>     <b>Name:</b> RAO FAMILY RESTAURANT<br>     <b>Address:</b> 6347 W GRAND AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_93c4417b71e75d8d9e9d0b65731c3201.setContent(html_885f2d257ff43a5ec2ba462df28d57d4);
+            
+        
+
+        marker_a886d2e35ecd90bd2c712ff9be292a3a.bindPopup(popup_93c4417b71e75d8d9e9d0b65731c3201)
+        ;
+
+        
+    
+    
+            marker_a886d2e35ecd90bd2c712ff9be292a3a.bindTooltip(
+                `<div>
+                     #70 • RAO FAMILY RESTAURANT • score=0.694
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_563b2cc7a565496472c56993f5223f37 = L.marker(
+                [41.86629065519555, -87.72456177467829],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_366e487d88e75700f17a94c07f4f1100 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_aee12b31b63bb7aa9a7a62c5eed4fc42 = $(`<div id="html_aee12b31b63bb7aa9a7a62c5eed4fc42" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 71<br>     <b>Risk score:</b> 0.694<br>     <b>Name:</b> SEASHELL<br>     <b>Address:</b> 3944 W ROOSEVELT RD<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_366e487d88e75700f17a94c07f4f1100.setContent(html_aee12b31b63bb7aa9a7a62c5eed4fc42);
+            
+        
+
+        marker_563b2cc7a565496472c56993f5223f37.bindPopup(popup_366e487d88e75700f17a94c07f4f1100)
+        ;
+
+        
+    
+    
+            marker_563b2cc7a565496472c56993f5223f37.bindTooltip(
+                `<div>
+                     #71 • SEASHELL • score=0.694
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7561430049cc63de30bc90408967fa67 = L.marker(
+                [41.75546441273601, -87.65371781952274],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_713b380633e9c8d4d27f6ca247054331 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_594dc628d9b82a9519a095866375bc28 = $(`<div id="html_594dc628d9b82a9519a095866375bc28" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 72<br>     <b>Risk score:</b> 0.694<br>     <b>Name:</b> POPEYE'S  # 866<br>     <b>Address:</b> 7617 S RACINE AVE<br>     <b>ZIP:</b> 60620<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_713b380633e9c8d4d27f6ca247054331.setContent(html_594dc628d9b82a9519a095866375bc28);
+            
+        
+
+        marker_7561430049cc63de30bc90408967fa67.bindPopup(popup_713b380633e9c8d4d27f6ca247054331)
+        ;
+
+        
+    
+    
+            marker_7561430049cc63de30bc90408967fa67.bindTooltip(
+                `<div>
+                     #72 • POPEYE'S  # 866 • score=0.694
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_eb0ef3a9307289be929b0a26531acd45 = L.marker(
+                [41.96826769702089, -87.71566699095202],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_0253c5d388e5ee1c8c9267869cfedcf7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f6f9fc6a476deba75e169cecee394f72 = $(`<div id="html_f6f9fc6a476deba75e169cecee394f72" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 73<br>     <b>Risk score:</b> 0.693<br>     <b>Name:</b> PEKING MANDARIN RESTAURANT<br>     <b>Address:</b> 3457-3459 W LAWRENCE AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_0253c5d388e5ee1c8c9267869cfedcf7.setContent(html_f6f9fc6a476deba75e169cecee394f72);
+            
+        
+
+        marker_eb0ef3a9307289be929b0a26531acd45.bindPopup(popup_0253c5d388e5ee1c8c9267869cfedcf7)
+        ;
+
+        
+    
+    
+            marker_eb0ef3a9307289be929b0a26531acd45.bindTooltip(
+                `<div>
+                     #73 • PEKING MANDARIN RESTAURANT • score=0.693
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_de1b24392d7f24ee5d53270eb2030ed8 = L.marker(
+                [41.90994655026227, -87.72995037139705],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_4878bdbbecb17677da7cce21f5146500 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0ad0130a5a3f657ab6067acf5e84c541 = $(`<div id="html_0ad0130a5a3f657ab6067acf5e84c541" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 74<br>     <b>Risk score:</b> 0.693<br>     <b>Name:</b> TACONAZO EL ORIGINAL #1<br>     <b>Address:</b> 4124 W NORTH AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_4878bdbbecb17677da7cce21f5146500.setContent(html_0ad0130a5a3f657ab6067acf5e84c541);
+            
+        
+
+        marker_de1b24392d7f24ee5d53270eb2030ed8.bindPopup(popup_4878bdbbecb17677da7cce21f5146500)
+        ;
+
+        
+    
+    
+            marker_de1b24392d7f24ee5d53270eb2030ed8.bindTooltip(
+                `<div>
+                     #74 • TACONAZO EL ORIGINAL #1 • score=0.693
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_6d8b045e15ab8e75f8e1cb0ca5c78c97 = L.marker(
+                [41.92404417418351, -87.76894097882658],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_767f2ee9fda676e409b87b0f7c971bae = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2a4baa13f7195f633fdd82c85407be35 = $(`<div id="html_2a4baa13f7195f633fdd82c85407be35" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 75<br>     <b>Risk score:</b> 0.693<br>     <b>Name:</b> SUBWAY SANWICH SHOP<br>     <b>Address:</b> 5710 W FULLERTON AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_767f2ee9fda676e409b87b0f7c971bae.setContent(html_2a4baa13f7195f633fdd82c85407be35);
+            
+        
+
+        marker_6d8b045e15ab8e75f8e1cb0ca5c78c97.bindPopup(popup_767f2ee9fda676e409b87b0f7c971bae)
+        ;
+
+        
+    
+    
+            marker_6d8b045e15ab8e75f8e1cb0ca5c78c97.bindTooltip(
+                `<div>
+                     #75 • SUBWAY SANWICH SHOP • score=0.693
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2ccd531c2a773c5adc1f3c649780569a = L.marker(
+                [41.94711653707501, -87.65545987326549],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_6e861195f44c451555cfce7f6c694f6f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f38d0ec2358ecad1f3c23ac3565f05cf = $(`<div id="html_f38d0ec2358ecad1f3c23ac3565f05cf" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 76<br>     <b>Risk score:</b> 0.693<br>     <b>Name:</b> DO-RITE DONUTS & CHICKEN<br>     <b>Address:</b> 1027 W ADDISON ST<br>     <b>ZIP:</b> 60613<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_6e861195f44c451555cfce7f6c694f6f.setContent(html_f38d0ec2358ecad1f3c23ac3565f05cf);
+            
+        
+
+        marker_2ccd531c2a773c5adc1f3c649780569a.bindPopup(popup_6e861195f44c451555cfce7f6c694f6f)
+        ;
+
+        
+    
+    
+            marker_2ccd531c2a773c5adc1f3c649780569a.bindTooltip(
+                `<div>
+                     #76 • DO-RITE DONUTS & CHICKEN • score=0.693
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_1be8ee230b98fc072173eac6dc26e5a9 = L.marker(
+                [41.85387138887043, -87.63454197435672],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_0828335d5f0f1d5fca059b6111612e25 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_54793e8220975c51b7ec96c3f5ab3774 = $(`<div id="html_54793e8220975c51b7ec96c3f5ab3774" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 77<br>     <b>Risk score:</b> 0.692<br>     <b>Name:</b> KENKEE RESTAURANT<br>     <b>Address:</b> 2129 S CHINA PL<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_0828335d5f0f1d5fca059b6111612e25.setContent(html_54793e8220975c51b7ec96c3f5ab3774);
+            
+        
+
+        marker_1be8ee230b98fc072173eac6dc26e5a9.bindPopup(popup_0828335d5f0f1d5fca059b6111612e25)
+        ;
+
+        
+    
+    
+            marker_1be8ee230b98fc072173eac6dc26e5a9.bindTooltip(
+                `<div>
+                     #77 • KENKEE RESTAURANT • score=0.692
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_bd71272d5a7de84af2be6294ed1a0f95 = L.marker(
+                [41.7652957077341, -87.64426896091481],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_e63120dc92bfc9e69ab9f8f733b412b1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4c794bbbef2fba6f2150e8df75a839e5 = $(`<div id="html_4c794bbbef2fba6f2150e8df75a839e5" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 78<br>     <b>Risk score:</b> 0.691<br>     <b>Name:</b> TOMMY FOOD SERVICE<br>     <b>Address:</b> 7059 S HALSTED ST<br>     <b>ZIP:</b> 60621<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_e63120dc92bfc9e69ab9f8f733b412b1.setContent(html_4c794bbbef2fba6f2150e8df75a839e5);
+            
+        
+
+        marker_bd71272d5a7de84af2be6294ed1a0f95.bindPopup(popup_e63120dc92bfc9e69ab9f8f733b412b1)
+        ;
+
+        
+    
+    
+            marker_bd71272d5a7de84af2be6294ed1a0f95.bindTooltip(
+                `<div>
+                     #78 • TOMMY FOOD SERVICE • score=0.691
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_f98c4d9d7077c1b112e11eff7620e9d6 = L.marker(
+                [41.96842384760016, -87.72135178109974],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_e20d627802c62b1879f6fb7a19c7d57a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fb2b38ca8a4464b50e32c2943589c092 = $(`<div id="html_fb2b38ca8a4464b50e32c2943589c092" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 79<br>     <b>Risk score:</b> 0.691<br>     <b>Name:</b> SU NUEVA CASA DEL GALLO BRAVO, INC.<br>     <b>Address:</b> 3714 W LAWRENCE AVE<br>     <b>ZIP:</b> 60625<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_e20d627802c62b1879f6fb7a19c7d57a.setContent(html_fb2b38ca8a4464b50e32c2943589c092);
+            
+        
+
+        marker_f98c4d9d7077c1b112e11eff7620e9d6.bindPopup(popup_e20d627802c62b1879f6fb7a19c7d57a)
+        ;
+
+        
+    
+    
+            marker_f98c4d9d7077c1b112e11eff7620e9d6.bindTooltip(
+                `<div>
+                     #79 • SU NUEVA CASA DEL GALLO BRAVO, INC. • score=0.691
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_12b133b8e199d700c60b54bffe7de0b6 = L.marker(
+                [41.85410541494823, -87.63405906823053],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_8a28bf1bd542cbd4ddc288beb0c10279 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_50714d3ee7fb05621bf0077c204f5032 = $(`<div id="html_50714d3ee7fb05621bf0077c204f5032" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 80<br>     <b>Risk score:</b> 0.691<br>     <b>Name:</b> SO GONG DONG KOREAN B.B.Q.<br>     <b>Address:</b> 2101 S CHINA PL<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_8a28bf1bd542cbd4ddc288beb0c10279.setContent(html_50714d3ee7fb05621bf0077c204f5032);
+            
+        
+
+        marker_12b133b8e199d700c60b54bffe7de0b6.bindPopup(popup_8a28bf1bd542cbd4ddc288beb0c10279)
+        ;
+
+        
+    
+    
+            marker_12b133b8e199d700c60b54bffe7de0b6.bindTooltip(
+                `<div>
+                     #80 • SO GONG DONG KOREAN B.B.Q. • score=0.691
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9a0f61f95a9b43442f3ccab5ed0cdbd1 = L.marker(
+                [41.85113766046019, -87.63863592160146],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_0884dabcf0586850e008dcd998cbc9af = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d38e12af9fed7770c11a6471235a25c3 = $(`<div id="html_d38e12af9fed7770c11a6471235a25c3" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 81<br>     <b>Risk score:</b> 0.691<br>     <b>Name:</b> PARTEA<br>     <b>Address:</b> 2252 S CANAL ST UPPR 228<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_0884dabcf0586850e008dcd998cbc9af.setContent(html_d38e12af9fed7770c11a6471235a25c3);
+            
+        
+
+        marker_9a0f61f95a9b43442f3ccab5ed0cdbd1.bindPopup(popup_0884dabcf0586850e008dcd998cbc9af)
+        ;
+
+        
+    
+    
+            marker_9a0f61f95a9b43442f3ccab5ed0cdbd1.bindTooltip(
+                `<div>
+                     #81 • PARTEA • score=0.691
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_02f4b13ad3813af81f6a50357ff6a3a2 = L.marker(
+                [41.852737087892734, -87.63236961423742],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_d82dc244227d8775ad2860496a476c3f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f8f698c866023eb80e1b05c2a6d2b401 = $(`<div id="html_f8f698c866023eb80e1b05c2a6d2b401" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 82<br>     <b>Risk score:</b> 0.691<br>     <b>Name:</b> CHINA TOWN RESTAURANT<br>     <b>Address:</b> 207 W CERMAK RD<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_d82dc244227d8775ad2860496a476c3f.setContent(html_f8f698c866023eb80e1b05c2a6d2b401);
+            
+        
+
+        marker_02f4b13ad3813af81f6a50357ff6a3a2.bindPopup(popup_d82dc244227d8775ad2860496a476c3f)
+        ;
+
+        
+    
+    
+            marker_02f4b13ad3813af81f6a50357ff6a3a2.bindTooltip(
+                `<div>
+                     #82 • CHINA TOWN RESTAURANT • score=0.691
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8db4a6014d073c1aa826b0c814b4e445 = L.marker(
+                [41.738782134570904, -87.58510296843984],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_4ff29d1be14fa937622a00640f413d05 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_12960b541bc1bf1ff5163a12c542f67a = $(`<div id="html_12960b541bc1bf1ff5163a12c542f67a" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 83<br>     <b>Risk score:</b> 0.690<br>     <b>Name:</b> HOE TOY CHOP SUEY<br>     <b>Address:</b> 8559 S STONY ISLAND AVE<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_4ff29d1be14fa937622a00640f413d05.setContent(html_12960b541bc1bf1ff5163a12c542f67a);
+            
+        
+
+        marker_8db4a6014d073c1aa826b0c814b4e445.bindPopup(popup_4ff29d1be14fa937622a00640f413d05)
+        ;
+
+        
+    
+    
+            marker_8db4a6014d073c1aa826b0c814b4e445.bindTooltip(
+                `<div>
+                     #83 • HOE TOY CHOP SUEY • score=0.690
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_93a503420d33e359dd0e99564b550da8 = L.marker(
+                [41.852727800389985, -87.63303883684604],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_573b6cfcd5856efb0a4eef8e3e7744eb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7150fceab84cf58eacbdd098ad7b758e = $(`<div id="html_7150fceab84cf58eacbdd098ad7b758e" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 84<br>     <b>Risk score:</b> 0.690<br>     <b>Name:</b> YEE HEUNG XIAN CUISINE<br>     <b>Address:</b> 225 W CERMAK RD<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_573b6cfcd5856efb0a4eef8e3e7744eb.setContent(html_7150fceab84cf58eacbdd098ad7b758e);
+            
+        
+
+        marker_93a503420d33e359dd0e99564b550da8.bindPopup(popup_573b6cfcd5856efb0a4eef8e3e7744eb)
+        ;
+
+        
+    
+    
+            marker_93a503420d33e359dd0e99564b550da8.bindTooltip(
+                `<div>
+                     #84 • YEE HEUNG XIAN CUISINE • score=0.690
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9aa891fb2a323f49c2e99a1a4faa82d5 = L.marker(
+                [41.7383177997208, -87.60472450850637],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_ac0500d47db6277484806af90ae9728d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3384b558f2bb4ec5fd591377409333bb = $(`<div id="html_3384b558f2bb4ec5fd591377409333bb" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 85<br>     <b>Risk score:</b> 0.690<br>     <b>Name:</b> NEW L A SUBMARINE, INC.<br>     <b>Address:</b> 8603 S COTTAGE GROVE AVE<br>     <b>ZIP:</b> 60619<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_ac0500d47db6277484806af90ae9728d.setContent(html_3384b558f2bb4ec5fd591377409333bb);
+            
+        
+
+        marker_9aa891fb2a323f49c2e99a1a4faa82d5.bindPopup(popup_ac0500d47db6277484806af90ae9728d)
+        ;
+
+        
+    
+    
+            marker_9aa891fb2a323f49c2e99a1a4faa82d5.bindTooltip(
+                `<div>
+                     #85 • NEW L A SUBMARINE, INC. • score=0.690
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4714c482497d008aea51f6310882588b = L.marker(
+                [41.96159491487656, -87.67666386545389],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_42f212c1f0d6b15c8b54a57570dab8a0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_89eab49091c7250b17f1e2a1649f0be3 = $(`<div id="html_89eab49091c7250b17f1e2a1649f0be3" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 86<br>     <b>Risk score:</b> 0.690<br>     <b>Name:</b> LA AMISTAD INC.<br>     <b>Address:</b> 1914 W MONTROSE AVE<br>     <b>ZIP:</b> 60613<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_42f212c1f0d6b15c8b54a57570dab8a0.setContent(html_89eab49091c7250b17f1e2a1649f0be3);
+            
+        
+
+        marker_4714c482497d008aea51f6310882588b.bindPopup(popup_42f212c1f0d6b15c8b54a57570dab8a0)
+        ;
+
+        
+    
+    
+            marker_4714c482497d008aea51f6310882588b.bindTooltip(
+                `<div>
+                     #86 • LA AMISTAD INC. • score=0.690
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_2848c8eb3eb0676a2c21202fab2b372f = L.marker(
+                [41.77511152013113, -87.68367904074279],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_0e1969e0eab7ae5897da1b4e2d469958 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7cc5d9beec2ce29385309620b39a3c88 = $(`<div id="html_7cc5d9beec2ce29385309620b39a3c88" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 87<br>     <b>Risk score:</b> 0.690<br>     <b>Name:</b> CHICAGO PIT STOP BBQ<br>     <b>Address:</b> 6514 S WESTERN AVE<br>     <b>ZIP:</b> 60636<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_0e1969e0eab7ae5897da1b4e2d469958.setContent(html_7cc5d9beec2ce29385309620b39a3c88);
+            
+        
+
+        marker_2848c8eb3eb0676a2c21202fab2b372f.bindPopup(popup_0e1969e0eab7ae5897da1b4e2d469958)
+        ;
+
+        
+    
+    
+            marker_2848c8eb3eb0676a2c21202fab2b372f.bindTooltip(
+                `<div>
+                     #87 • CHICAGO PIT STOP BBQ • score=0.690
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8091a08055f44af1863823368f51eb62 = L.marker(
+                [41.90995211232752, -87.72953056213507],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_26ebbef7da176c59eaf9b28158047204 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bc97309824a19951f666c7b9b25fb73d = $(`<div id="html_bc97309824a19951f666c7b9b25fb73d" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 88<br>     <b>Risk score:</b> 0.689<br>     <b>Name:</b> EL BUEN VALLE RESTAURANT<br>     <b>Address:</b> 4114 W NORTH AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_26ebbef7da176c59eaf9b28158047204.setContent(html_bc97309824a19951f666c7b9b25fb73d);
+            
+        
+
+        marker_8091a08055f44af1863823368f51eb62.bindPopup(popup_26ebbef7da176c59eaf9b28158047204)
+        ;
+
+        
+    
+    
+            marker_8091a08055f44af1863823368f51eb62.bindTooltip(
+                `<div>
+                     #88 • EL BUEN VALLE RESTAURANT • score=0.689
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a0ef53bf856cc6501b34db3b5f69a380 = L.marker(
+                [41.90942818120997, -87.77030561479368],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_da62bdca6ee70ed27697488e040eae22 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_549a323c8abf461b9f70f3b34246df6b = $(`<div id="html_549a323c8abf461b9f70f3b34246df6b" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 89<br>     <b>Risk score:</b> 0.689<br>     <b>Name:</b> BLUE CRAB & SEAFOOD MARKET<br>     <b>Address:</b> 5800 W NORTH AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_da62bdca6ee70ed27697488e040eae22.setContent(html_549a323c8abf461b9f70f3b34246df6b);
+            
+        
+
+        marker_a0ef53bf856cc6501b34db3b5f69a380.bindPopup(popup_da62bdca6ee70ed27697488e040eae22)
+        ;
+
+        
+    
+    
+            marker_a0ef53bf856cc6501b34db3b5f69a380.bindTooltip(
+                `<div>
+                     #89 • BLUE CRAB & SEAFOOD MARKET • score=0.689
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_be3adfd88054fd87492bb7e0aa388b3a = L.marker(
+                [41.92414063497689, -87.74552933864975],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_8dcaf646ec63f7aa327c83d0c543c0ad = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3f9b2a7a50ee31cf49196029629e3097 = $(`<div id="html_3f9b2a7a50ee31cf49196029629e3097" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 90<br>     <b>Risk score:</b> 0.689<br>     <b>Name:</b> COCHIAROS PIZZA #2<br>     <b>Address:</b> 4741 W FULLERTON AVE<br>     <b>ZIP:</b> 60639<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_8dcaf646ec63f7aa327c83d0c543c0ad.setContent(html_3f9b2a7a50ee31cf49196029629e3097);
+            
+        
+
+        marker_be3adfd88054fd87492bb7e0aa388b3a.bindPopup(popup_8dcaf646ec63f7aa327c83d0c543c0ad)
+        ;
+
+        
+    
+    
+            marker_be3adfd88054fd87492bb7e0aa388b3a.bindTooltip(
+                `<div>
+                     #90 • COCHIAROS PIZZA #2 • score=0.689
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7a5d1ae07bb7d0d9979e129386531813 = L.marker(
+                [41.72237645869016, -87.57394256622297],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_b91af59b7481d6c8f462f1f34ea0b64b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2b659d755aa00efefbc5b09f05f73a01 = $(`<div id="html_2b659d755aa00efefbc5b09f05f73a01" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 91<br>     <b>Risk score:</b> 0.689<br>     <b>Name:</b> DOMINOS PIZZA<br>     <b>Address:</b> 2035 E 95TH ST<br>     <b>ZIP:</b> 60617<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_b91af59b7481d6c8f462f1f34ea0b64b.setContent(html_2b659d755aa00efefbc5b09f05f73a01);
+            
+        
+
+        marker_7a5d1ae07bb7d0d9979e129386531813.bindPopup(popup_b91af59b7481d6c8f462f1f34ea0b64b)
+        ;
+
+        
+    
+    
+            marker_7a5d1ae07bb7d0d9979e129386531813.bindTooltip(
+                `<div>
+                     #91 • DOMINOS PIZZA • score=0.689
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7fe9aaddd33499d0665aef91468cd3e4 = L.marker(
+                [41.75546441273601, -87.65371781952274],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_5ba61385a9fd4e52b010b31179d17b2b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_81a2df738fd91f11c2c95e27338b2683 = $(`<div id="html_81a2df738fd91f11c2c95e27338b2683" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 92<br>     <b>Risk score:</b> 0.689<br>     <b>Name:</b> POPEYE'S  # 866<br>     <b>Address:</b> 7617 S RACINE AVE<br>     <b>ZIP:</b> 60620<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_5ba61385a9fd4e52b010b31179d17b2b.setContent(html_81a2df738fd91f11c2c95e27338b2683);
+            
+        
+
+        marker_7fe9aaddd33499d0665aef91468cd3e4.bindPopup(popup_5ba61385a9fd4e52b010b31179d17b2b)
+        ;
+
+        
+    
+    
+            marker_7fe9aaddd33499d0665aef91468cd3e4.bindTooltip(
+                `<div>
+                     #92 • POPEYE'S  # 866 • score=0.689
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d3a9270e754f44de843731b48be8ca93 = L.marker(
+                [41.72199187253153, -87.61470981207702],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_61bfc5d6c959514707d6cce71faf0e6f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3f4a2d8d101ef6f04c564187d07660b4 = $(`<div id="html_3f4a2d8d101ef6f04c564187d07660b4" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 93<br>     <b>Risk score:</b> 0.689<br>     <b>Name:</b> POPEYE'S #860<br>     <b>Address:</b> 346 E 95TH ST<br>     <b>ZIP:</b> 60619<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_61bfc5d6c959514707d6cce71faf0e6f.setContent(html_3f4a2d8d101ef6f04c564187d07660b4);
+            
+        
+
+        marker_d3a9270e754f44de843731b48be8ca93.bindPopup(popup_61bfc5d6c959514707d6cce71faf0e6f)
+        ;
+
+        
+    
+    
+            marker_d3a9270e754f44de843731b48be8ca93.bindTooltip(
+                `<div>
+                     #93 • POPEYE'S #860 • score=0.689
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_3addb88bcd69ce86181e08a6455f837f = L.marker(
+                [41.747422254096726, -87.66350827834202],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_127082a88e400e78dc9bb0a767070029 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0eb51018f52e4dc6c2d510ad9409ec54 = $(`<div id="html_0eb51018f52e4dc6c2d510ad9409ec54" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 94<br>     <b>Risk score:</b> 0.689<br>     <b>Name:</b> FOOD ON THE RUN<br>     <b>Address:</b> 8036-8040 S ASHLAND AVE<br>     <b>ZIP:</b> 60620<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_127082a88e400e78dc9bb0a767070029.setContent(html_0eb51018f52e4dc6c2d510ad9409ec54);
+            
+        
+
+        marker_3addb88bcd69ce86181e08a6455f837f.bindPopup(popup_127082a88e400e78dc9bb0a767070029)
+        ;
+
+        
+    
+    
+            marker_3addb88bcd69ce86181e08a6455f837f.bindTooltip(
+                `<div>
+                     #94 • FOOD ON THE RUN • score=0.689
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0662dee1cbfd69797abb57e4aa6a4936 = L.marker(
+                [41.83126121100285, -87.6168220727714],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_1eb324310477026b53f5eb763895ece6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b06367d0fe3b9173275bd3b28279a2e3 = $(`<div id="html_b06367d0fe3b9173275bd3b28279a2e3" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 95<br>     <b>Risk score:</b> 0.688<br>     <b>Name:</b> SUBWAY<br>     <b>Address:</b> 3477 S DR MARTIN LUTHER KING JR DR<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_1eb324310477026b53f5eb763895ece6.setContent(html_b06367d0fe3b9173275bd3b28279a2e3);
+            
+        
+
+        marker_0662dee1cbfd69797abb57e4aa6a4936.bindPopup(popup_1eb324310477026b53f5eb763895ece6)
+        ;
+
+        
+    
+    
+            marker_0662dee1cbfd69797abb57e4aa6a4936.bindTooltip(
+                `<div>
+                     #95 • SUBWAY • score=0.688
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ae4639ecaa6efbde08cc544626e82813 = L.marker(
+                [41.682671696042505, -87.6807260850454],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_a96bd3d352ae32028a894d17d1f8d3ec = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_56889789c32c98c17cde4cebab41a514 = $(`<div id="html_56889789c32c98c17cde4cebab41a514" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 96<br>     <b>Risk score:</b> 0.688<br>     <b>Name:</b> LUMES PANCAKE HOUSE<br>     <b>Address:</b> 11601 S WESTERN AVE<br>     <b>ZIP:</b> 60643<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_a96bd3d352ae32028a894d17d1f8d3ec.setContent(html_56889789c32c98c17cde4cebab41a514);
+            
+        
+
+        marker_ae4639ecaa6efbde08cc544626e82813.bindPopup(popup_a96bd3d352ae32028a894d17d1f8d3ec)
+        ;
+
+        
+    
+    
+            marker_ae4639ecaa6efbde08cc544626e82813.bindTooltip(
+                `<div>
+                     #96 • LUMES PANCAKE HOUSE • score=0.688
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0afd472c8170bdf7aebf2276474723f1 = L.marker(
+                [41.98351970758198, -87.6596385602517],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_818804ba9280a4e3a865bf569d36d259 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_81a88b86de35bfbbad168dde25f280c2 = $(`<div id="html_81a88b86de35bfbbad168dde25f280c2" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 97<br>     <b>Risk score:</b> 0.688<br>     <b>Name:</b> BEN'S NOODLES & RICE<br>     <b>Address:</b> 1139 W BRYN MAWR AVE<br>     <b>ZIP:</b> 60660<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_818804ba9280a4e3a865bf569d36d259.setContent(html_81a88b86de35bfbbad168dde25f280c2);
+            
+        
+
+        marker_0afd472c8170bdf7aebf2276474723f1.bindPopup(popup_818804ba9280a4e3a865bf569d36d259)
+        ;
+
+        
+    
+    
+            marker_0afd472c8170bdf7aebf2276474723f1.bindTooltip(
+                `<div>
+                     #97 • BEN'S NOODLES & RICE • score=0.688
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ccdbc7c0d85834b14c1052c0dd8c0159 = L.marker(
+                [41.853444466613134, -87.63334564567201],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_5473d3a24d1eeecc485e1c38b7384f5e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5c5a8819f207eb1d3c7f31b2b6700e19 = $(`<div id="html_5c5a8819f207eb1d3c7f31b2b6700e19" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 98<br>     <b>Risk score:</b> 0.688<br>     <b>Name:</b> STRINGS<br>     <b>Address:</b> 2141 S ARCHER AVE<br>     <b>ZIP:</b> 60616<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_5473d3a24d1eeecc485e1c38b7384f5e.setContent(html_5c5a8819f207eb1d3c7f31b2b6700e19);
+            
+        
+
+        marker_ccdbc7c0d85834b14c1052c0dd8c0159.bindPopup(popup_5473d3a24d1eeecc485e1c38b7384f5e)
+        ;
+
+        
+    
+    
+            marker_ccdbc7c0d85834b14c1052c0dd8c0159.bindTooltip(
+                `<div>
+                     #98 • STRINGS • score=0.688
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_91d2e3c265d45dab3d97466b18081145 = L.marker(
+                [41.86607379348164, -87.72437267706233],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_160d8ed6d270bd65f84c2527a92ab7f9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_87c352e5b4a40057e8df12792afc3c20 = $(`<div id="html_87c352e5b4a40057e8df12792afc3c20" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 99<br>     <b>Risk score:</b> 0.688<br>     <b>Name:</b> B & A SUPERSUB INC<br>     <b>Address:</b> 3943 W ROOSEVELT RD<br>     <b>ZIP:</b> 60624<br>     <b>Actual critical violation:</b> 0<br></div>`)[0];
+                popup_160d8ed6d270bd65f84c2527a92ab7f9.setContent(html_87c352e5b4a40057e8df12792afc3c20);
+            
+        
+
+        marker_91d2e3c265d45dab3d97466b18081145.bindPopup(popup_160d8ed6d270bd65f84c2527a92ab7f9)
+        ;
+
+        
+    
+    
+            marker_91d2e3c265d45dab3d97466b18081145.bindTooltip(
+                `<div>
+                     #99 • B & A SUPERSUB INC • score=0.688
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_5c734927f9dd484a53d6866cb4f6c4fd = L.marker(
+                [41.75819780166309, -87.62068479659459],
+                {
+}
+            ).addTo(marker_cluster_4d4dc15652038112110af6ef45f82a18);
+        
+    
+        var popup_84d43062849f003418590a8ac60590e9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b4530489f2dce6dbf0f19926b5a1b1e7 = $(`<div id="html_b4530489f2dce6dbf0f19926b5a1b1e7" style="width: 100.0%; height: 100.0%;">     <b>Rank:</b> 100<br>     <b>Risk score:</b> 0.688<br>     <b>Name:</b> SHARKS FISH & CHICKEN<br>     <b>Address:</b> 119 E 75TH ST<br>     <b>ZIP:</b> 60619<br>     <b>Actual critical violation:</b> 1<br></div>`)[0];
+                popup_84d43062849f003418590a8ac60590e9.setContent(html_b4530489f2dce6dbf0f19926b5a1b1e7);
+            
+        
+
+        marker_5c734927f9dd484a53d6866cb4f6c4fd.bindPopup(popup_84d43062849f003418590a8ac60590e9)
+        ;
+
+        
+    
+    
+            marker_5c734927f9dd484a53d6866cb4f6c4fd.bindTooltip(
+                `<div>
+                     #100 • SHARKS FISH & CHICKEN • score=0.688
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            marker_cluster_4d4dc15652038112110af6ef45f82a18.addTo(map_bb027fc4e3613a1549ac582ff13cced4);
+        
+    
+            var layer_control_9fa75375d264ae476f8fa0e68cebe910_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_22fca3efec5428941b929a4778488f55,
+                },
+                overlays :  {
+                    "Top 100" : marker_cluster_4d4dc15652038112110af6ef45f82a18,
+                },
+            };
+            let layer_control_9fa75375d264ae476f8fa0e68cebe910 = L.control.layers(
+                layer_control_9fa75375d264ae476f8fa0e68cebe910_layers.base_layers,
+                layer_control_9fa75375d264ae476f8fa0e68cebe910_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_bb027fc4e3613a1549ac582ff13cced4);
+
+        
+</script>
+</html>

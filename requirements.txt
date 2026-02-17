@@ -16,4 +16,5 @@ numpy==2.0.2
 
 # Modeling (for upcoming steps)
 scikit-learn==1.6.1
+joblib==1.4.2
 tqdm==4.67.3
