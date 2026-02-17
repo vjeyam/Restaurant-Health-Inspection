@@ -14,7 +14,13 @@ pandas==2.3.3
 pyarrow==21.0.0
 numpy==2.0.2
 
-# Modeling (for upcoming steps)
+# Modeling
 scikit-learn==1.6.1
 joblib==1.4.2
+
+# Visualization
+matplotlib==3.9.2
+folium==0.17.0
+
+# Utilities
 tqdm==4.67.3
